@@ -1,0 +1,441 @@
+{
+    "2284": "Demo",
+    "RegionList": {
+        "12": "No Region"
+    },
+    "AttributeList": {
+        "12": [
+            6328,
+            6329,
+            6330,
+            6331,
+            6332,
+            6333,
+            6334,
+            6335,
+            6336,
+            6337,
+            6338,
+            6339,
+            6340,
+            6341,
+            6342,
+            6343,
+            6344,
+            6345
+        ]
+    },
+    "AttributeOrder": {
+        "12": {
+            "6328": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 6328,
+                "AttributeName": "DOMAIN_ID",
+                "AttributeId": 257,
+                "DisplayAttributeName": "Domain ID",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "6329": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 6329,
+                "AttributeName": "INPUT_ID",
+                "AttributeId": 260,
+                "DisplayAttributeName": "Link ID",
+                "IsDistinct": 1,
+                "ControlName": "Label"
+            },
+            "6330": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 6330,
+                "AttributeName": "SOURCE_URL",
+                "AttributeId": 274,
+                "DisplayAttributeName": "Source URL",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "6331": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 6331,
+                "AttributeName": "Domain URL",
+                "AttributeId": 1446,
+                "DisplayAttributeName": "Domain URL",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "6332": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 6332,
+                "AttributeName": "Mob_Website",
+                "AttributeId": 1447,
+                "DisplayAttributeName": "Website",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6333": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 6333,
+                "AttributeName": "Wikipedia_link",
+                "AttributeId": 1448,
+                "DisplayAttributeName": "News Link",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6334": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 6334,
+                "AttributeName": "Mob_Company Name",
+                "AttributeId": 1449,
+                "DisplayAttributeName": "Company Name",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6335": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 6335,
+                "AttributeName": "Mob_Street 1",
+                "AttributeId": 1450,
+                "DisplayAttributeName": "Street",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6336": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 6336,
+                "AttributeName": "Mob_Street 2",
+                "AttributeId": 1451,
+                "DisplayAttributeName": "Street 2",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6337": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 6337,
+                "AttributeName": "Mob_City",
+                "AttributeId": 141,
+                "DisplayAttributeName": "City",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6338": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 6338,
+                "AttributeName": "Mob_State",
+                "AttributeId": 1452,
+                "DisplayAttributeName": "State",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6339": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 6339,
+                "AttributeName": "Mob_Postal Code",
+                "AttributeId": 1453,
+                "DisplayAttributeName": "Postal Code",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6340": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 6340,
+                "AttributeName": "Mob_Country",
+                "AttributeId": 1454,
+                "DisplayAttributeName": "Country",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6341": {
+                "DispalyOrder": "14",
+                "ProjectAttributeId": 6341,
+                "AttributeName": "Mob_Address Source",
+                "AttributeId": 1455,
+                "DisplayAttributeName": "About Us",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6342": {
+                "DispalyOrder": "15",
+                "ProjectAttributeId": 6342,
+                "AttributeName": "Mob_Phone",
+                "AttributeId": 144,
+                "DisplayAttributeName": "Phone",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6343": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 6343,
+                "AttributeName": "Mob_Phone Source",
+                "AttributeId": 1456,
+                "DisplayAttributeName": "Executive Name",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6344": {
+                "DispalyOrder": "17",
+                "ProjectAttributeId": 6344,
+                "AttributeName": "Mob_Category",
+                "AttributeId": 1457,
+                "DisplayAttributeName": "Products & Services",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6345": {
+                "DispalyOrder": "18",
+                "ProjectAttributeId": 6345,
+                "AttributeName": "Comments",
+                "AttributeId": 61,
+                "DisplayAttributeName": "Comments",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            }
+        }
+    },
+    "AttributeGroupMaster": [],
+    "AttributeGroupMasterDirect": [],
+    "Menu": {
+        "3": {
+            "Mojo Production": {
+                "Job Dashboard": "ProductionDashboards",
+                "Production View": "ViewProduction"
+            },
+            "Manage Project": {
+                "Export Production Output": "ExportProduction"
+            },
+            "Queries": {
+                "PU Queries": "puquery"
+            },
+            "Rebuttal": {
+                "Rebuttal": "TLRebuttal"
+            }
+        },
+        "31": {
+            "Mojo Production": {
+                "Production": "GetJob",
+                "Export Production": "ExportProduction"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "Import InProgress",
+        "2": "Import Completed",
+        "3": "URL Crawling In Progress",
+        "4": "URL Crawling Exception",
+        "5": "URL Crawling Completed",
+        "6": "Ready For URL Validation",
+        "7": "URL Validation",
+        "8": "URL Validation Completed",
+        "9": "URL Validation Rejected",
+        "10": "Ready For URL Production",
+        "11": "URL Production",
+        "12": "URL Production Completed",
+        "13": "URL Production Rejected",
+        "36": "Ready For URL Crawling",
+        "37": "URL Crawling Partial",
+        "14": "Ready For URL QC",
+        "15": "URL QC",
+        "16": "URL QC Marked",
+        "17": "URL QC Accepted",
+        "18": "URL QC Rejected",
+        "19": "Attribute Extraction InProgress",
+        "20": "Attribute Extraction Exception",
+        "21": "Attribute Extraction Completed",
+        "22": "Ready For Attribute Validation",
+        "23": "Attribute Validation",
+        "24": "Attribute Validation Completed",
+        "25": "Attribute Validation Rejected",
+        "26": "Ready For Attribute Production",
+        "27": "Attribute Production",
+        "28": "Attribute Production Completed",
+        "29": "Attribute Production Rejected",
+        "35": "Ready For Attribute Extraction",
+        "30": "Ready For QC",
+        "31": "QC",
+        "32": "QC Marked",
+        "33": "QC Accepted",
+        "34": "QC Rejected"
+    },
+    "ProjectGroupStatus": {
+        "Import": {
+            "1": "Import InProgress",
+            "2": "Import Completed"
+        },
+        "URL Verification": {
+            "3": "URL Crawling In Progress",
+            "4": "URL Crawling Exception",
+            "5": "URL Crawling Completed",
+            "6": "Ready For URL Validation",
+            "7": "URL Validation",
+            "8": "URL Validation Completed",
+            "9": "URL Validation Rejected",
+            "10": "Ready For URL Production",
+            "11": "URL Production",
+            "12": "URL Production Completed",
+            "13": "URL Production Rejected",
+            "36": "Ready For URL Crawling",
+            "37": "URL Crawling Partial"
+        },
+        "URL QC": {
+            "14": "Ready For URL QC",
+            "15": "URL QC",
+            "16": "URL QC Marked",
+            "17": "URL QC Accepted",
+            "18": "URL QC Rejected"
+        },
+        "Attribute Verification": {
+            "19": "Attribute Extraction InProgress",
+            "20": "Attribute Extraction Exception",
+            "21": "Attribute Extraction Completed",
+            "22": "Ready For Attribute Validation",
+            "23": "Attribute Validation",
+            "24": "Attribute Validation Completed",
+            "25": "Attribute Validation Rejected",
+            "26": "Ready For Attribute Production",
+            "27": "Attribute Production",
+            "28": "Attribute Production Completed",
+            "29": "Attribute Production Rejected",
+            "35": "Ready For Attribute Extraction"
+        },
+        "QC": {
+            "30": "Ready For QC",
+            "31": "QC",
+            "32": "QC Marked",
+            "33": "QC Accepted",
+            "34": "QC Rejected"
+        }
+    },
+    "Module": {
+        "140": "Mojo Production",
+        "142": "Manage Project",
+        "148": "Mojo Validation",
+        "141": "Queries",
+        "127": "Rebuttal"
+    },
+    "ModuleStatusList": {
+        "140": [
+            "Ready For Production",
+            "Production In Progress",
+            "Ready for QC",
+            "QC sample selected",
+            "Ready For TL Rebutal",
+            "Skip",
+            "Skip Inprogress",
+            "Rework",
+            "Rework InProgress",
+            "QC Rejected",
+            "ReadyForRejection",
+            "FileRejected",
+            "Change",
+            "No Change",
+            "NA",
+            "Production Complete",
+            "Query",
+            "Hold",
+            "QC Inprogress",
+            "QC Complete",
+            "Ready  For Json",
+            "Delivered"
+        ],
+        "148": [
+            "Ready For Validation",
+            "Validation InProgress",
+            "Validation Completed",
+            "Production Complete",
+            "Ready For Sampling",
+            "QC Sample Selected",
+            "Ready For QC",
+            "QC InProgress",
+            "QC Completed",
+            "QC Accepted",
+            "QC Rejected",
+            "Rework",
+            "Ready For TL Rebutal",
+            "QC Sample Selected",
+            "QC Accepted",
+            "QC Rejected",
+            "Delivered",
+            "Ready For QC",
+            "QC Inprogress"
+        ],
+        "127": [
+            "Ready For TL Rebuttal",
+            "TL Rebuttal Rejected",
+            "TL Rebuttal Accepted"
+        ]
+    },
+    "ModuleConfig": {
+        "140": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": 1,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": 1
+        },
+        "142": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": 1,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": 1
+        },
+        "148": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": 1,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": 1
+        },
+        "141": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": 1,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": 1
+        },
+        "127": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": 1,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": 1
+        }
+    },
+    "ProjectConfig": {
+        "DomainId": "260",
+        "DomainUrl": "257",
+        "InputId": "274",
+        "ProdDB_PageLimit": "6",
+        "ProductionView": "2",
+        "HygineCheck": "1"
+    },
+    "UserGroups": {
+        "2": "user1",
+        "3": "user2",
+        "1002": "vendor1",
+        "1003": "vendor2",
+        "1010": "MojoUrlVone",
+        "1011": "MojoUrlVtwo",
+        "1012": "mobius134243",
+        "1013": "mobius  1",
+        "1014": "12345",
+        "1015": "mobius234",
+        "1016": "mobius-123",
+        "1017": "12345-876",
+        "1018": "dad 1212",
+        "1019": "dad 12121",
+        "1020": "dad1212",
+        "1021": "123_uhe",
+        "1022": "fdgd5345",
+        "1023": "gdfg 45345",
+        "1024": "Mobius QC Single",
+        "1025": "Mojo Single",
+        "1026": "CencageLocalGroup1",
+        "2026": "CengageNpo",
+        "2027": "MojoCengage"
+    }
+}

@@ -1,0 +1,397 @@
+{
+    "1273": "Yell_UK",
+    "UserList": {
+        "1": "admin",
+        "11993": "bhuvaneshwaris",
+        "91405": "Venkatesan",
+        "91661": "RanjithSB",
+        "91801": "yellqctl",
+        "91802": "yellqcuser",
+        "91803": "yelltl",
+        "91804": "yelluser",
+        "91834": "Anu",
+        "91835": "archanag",
+        "91836": "saravananp",
+        "91837": "divyam",
+        "91839": "manikandana",
+        "91840": "sasikalas",
+        "91841": "kamalrajd",
+        "91843": "praveenkumars",
+        "91852": "karthikeyans",
+        "92430": "sasirekhai",
+        "92431": "mohanasundarir",
+        "92432": "aravindhank",
+        "92433": "vigneshwaranr",
+        "94791": "Saratheecs",
+        "95406": "aravindhanwfh",
+        "95407": "karthikeyanwfh",
+        "95409": "saratheewfh",
+        "95410": "vigneshwaranwfh",
+        "95411": "LakshmiNarayanawfh",
+        "95414": "anuwfh",
+        "95421": "deepikawfh",
+        "95426": "ranjithwfh",
+        "95427": "sasirekhawfh",
+        "95428": "sasikalawfh"
+    },
+    "RegionList": {
+        "10": "UK"
+    },
+    "AttributeList": {
+        "10": [
+            5082,
+            5082,
+            5083,
+            5083,
+            5085,
+            5085,
+            5086,
+            5086,
+            5087,
+            5087,
+            5088,
+            5088,
+            5089,
+            5089,
+            5090,
+            5090,
+            5081,
+            5081,
+            5091,
+            5091,
+            5084,
+            5084,
+            5079,
+            5079,
+            5093,
+            5093,
+            5092,
+            5092,
+            5078,
+            5078,
+            5080,
+            5080,
+            5094,
+            5094,
+            6332
+        ]
+    },
+    "AttributeOrder": {
+        "10": {
+            "5082": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 5082,
+                "AttributeName": "Company Name",
+                "DisplayAttributeName": "Company Name",
+                "ControlName": "TextBox"
+            },
+            "5083": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 5083,
+                "AttributeName": "Address line",
+                "DisplayAttributeName": "Address line",
+                "ControlName": "TextBox"
+            },
+            "5085": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 5085,
+                "AttributeName": "Zip Code",
+                "DisplayAttributeName": "Zip Code",
+                "ControlName": "Label"
+            },
+            "5086": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 5086,
+                "AttributeName": "Address Source",
+                "DisplayAttributeName": "Address Source",
+                "ControlName": "TextBox"
+            },
+            "5087": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 5087,
+                "AttributeName": "PhoneNumber",
+                "DisplayAttributeName": "PhoneNumber",
+                "ControlName": "TextBox"
+            },
+            "5088": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 5088,
+                "AttributeName": "Phone Source",
+                "DisplayAttributeName": "Phone Source",
+                "ControlName": "TextBox"
+            },
+            "5089": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 5089,
+                "AttributeName": "OtherPhone",
+                "DisplayAttributeName": "OtherPhone",
+                "ControlName": "TextBox"
+            },
+            "5090": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 5090,
+                "AttributeName": "Other Phone Source",
+                "DisplayAttributeName": "Other Phone Source",
+                "ControlName": "TextBox"
+            },
+            "5081": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 5081,
+                "AttributeName": "Url Status",
+                "DisplayAttributeName": "Url Status",
+                "ControlName": "TextBox"
+            },
+            "5091": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 5091,
+                "AttributeName": "Comments",
+                "DisplayAttributeName": "Comments",
+                "ControlName": "TextBox"
+            },
+            "5084": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 5084,
+                "AttributeName": "City\/County",
+                "DisplayAttributeName": "City\/County",
+                "ControlName": "TextBox"
+            },
+            "5079": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 5079,
+                "AttributeName": "DOMAIN",
+                "DisplayAttributeName": "DOMAIN",
+                "ControlName": "TextBox"
+            },
+            "5093": {
+                "DispalyOrder": "14",
+                "ProjectAttributeId": 5093,
+                "AttributeName": "DOMAIN_ID",
+                "DisplayAttributeName": "Domain ID",
+                "ControlName": "Label"
+            },
+            "5092": {
+                "DispalyOrder": "15",
+                "ProjectAttributeId": 5092,
+                "AttributeName": "INPUT_ID",
+                "DisplayAttributeName": "Input ID",
+                "ControlName": "TextBox"
+            },
+            "5078": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 5078,
+                "AttributeName": "MOB_ID",
+                "DisplayAttributeName": "MOB_ID",
+                "ControlName": "TextBox"
+            },
+            "5080": {
+                "DispalyOrder": "17",
+                "ProjectAttributeId": 5080,
+                "AttributeName": "Mobius Url",
+                "DisplayAttributeName": "Mobius Url",
+                "ControlName": "TextBox"
+            },
+            "5094": {
+                "DispalyOrder": "18",
+                "ProjectAttributeId": 5094,
+                "AttributeName": "REGION_SOURCE_URL",
+                "DisplayAttributeName": "Region Source Url",
+                "ControlName": "Label"
+            },
+            "6332": {
+                "DispalyOrder": "19",
+                "ProjectAttributeId": 6332,
+                "AttributeName": "Valid Business?",
+                "DisplayAttributeName": "Valid Business?",
+                "ControlName": "RadioButton"
+            }
+        }
+    },
+    "AttributeNames": {
+        "10": {
+            "230": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 5082,
+                "AttributeId": 230,
+                "AttributeName": "Company Name",
+                "DisplayAttributeName": "Company Name",
+                "ControlName": "TextBox"
+            },
+            "835": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 5083,
+                "AttributeId": 835,
+                "AttributeName": "Address line",
+                "DisplayAttributeName": "Address line",
+                "ControlName": "TextBox"
+            },
+            "837": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 5085,
+                "AttributeId": 837,
+                "AttributeName": "Zip Code",
+                "DisplayAttributeName": "Zip Code",
+                "ControlName": "Label"
+            },
+            "838": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 5086,
+                "AttributeId": 838,
+                "AttributeName": "Address Source",
+                "DisplayAttributeName": "Address Source",
+                "ControlName": "TextBox"
+            },
+            "839": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 5087,
+                "AttributeId": 839,
+                "AttributeName": "PhoneNumber",
+                "DisplayAttributeName": "PhoneNumber",
+                "ControlName": "TextBox"
+            },
+            "840": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 5088,
+                "AttributeId": 840,
+                "AttributeName": "Phone Source",
+                "DisplayAttributeName": "Phone Source",
+                "ControlName": "TextBox"
+            },
+            "841": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 5089,
+                "AttributeId": 841,
+                "AttributeName": "OtherPhone",
+                "DisplayAttributeName": "OtherPhone",
+                "ControlName": "TextBox"
+            },
+            "842": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 5090,
+                "AttributeId": 842,
+                "AttributeName": "Other Phone Source",
+                "DisplayAttributeName": "Other Phone Source",
+                "ControlName": "TextBox"
+            },
+            "834": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 5081,
+                "AttributeId": 834,
+                "AttributeName": "Url Status",
+                "DisplayAttributeName": "Url Status",
+                "ControlName": "TextBox"
+            },
+            "229": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 5091,
+                "AttributeId": 229,
+                "AttributeName": "Comments",
+                "DisplayAttributeName": "Comments",
+                "ControlName": "TextBox"
+            },
+            "836": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 5084,
+                "AttributeId": 836,
+                "AttributeName": "City\/County",
+                "DisplayAttributeName": "City\/County",
+                "ControlName": "TextBox"
+            },
+            "305": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 5079,
+                "AttributeId": 305,
+                "AttributeName": "DOMAIN",
+                "DisplayAttributeName": "DOMAIN",
+                "ControlName": "TextBox"
+            },
+            "306": {
+                "DispalyOrder": "14",
+                "ProjectAttributeId": 5093,
+                "AttributeId": 306,
+                "AttributeName": "DOMAIN_ID",
+                "DisplayAttributeName": "Domain ID",
+                "ControlName": "Label"
+            },
+            "424": {
+                "DispalyOrder": "15",
+                "ProjectAttributeId": 5092,
+                "AttributeId": 424,
+                "AttributeName": "INPUT_ID",
+                "DisplayAttributeName": "Input ID",
+                "ControlName": "TextBox"
+            },
+            "487": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 5078,
+                "AttributeId": 487,
+                "AttributeName": "MOB_ID",
+                "DisplayAttributeName": "MOB_ID",
+                "ControlName": "TextBox"
+            },
+            "833": {
+                "DispalyOrder": "17",
+                "ProjectAttributeId": 5080,
+                "AttributeId": 833,
+                "AttributeName": "Mobius Url",
+                "DisplayAttributeName": "Mobius Url",
+                "ControlName": "TextBox"
+            },
+            "615": {
+                "DispalyOrder": "18",
+                "ProjectAttributeId": 5094,
+                "AttributeId": 615,
+                "AttributeName": "REGION_SOURCE_URL",
+                "DisplayAttributeName": "Region Source Url",
+                "ControlName": "Label"
+            },
+            "782": {
+                "DispalyOrder": "19",
+                "ProjectAttributeId": 6332,
+                "AttributeId": 782,
+                "AttributeName": "Valid Business?",
+                "DisplayAttributeName": "Valid Business?",
+                "ControlName": "RadioButton"
+            }
+        }
+    },
+    "Menu": {
+        "31": {
+            "Mojo Production": {
+                "Production": "GetJob",
+                "Production View": "ViewProduction"
+            }
+        },
+        "3": {
+            "Mojo Production": {
+                "Job Dashboard": "ProductionDashboards",
+                "Production View": "ViewProduction",
+                "Comparison Report": "ComparisonReport"
+            },
+            "Manage Project": {
+                "Export Batch Output": "OutputExport",
+                "Export Production Output": "ExportProduction"
+            },
+            "Queries": {
+                "PU Queries": "TLQuery"
+            },
+            "Rebuttal": {
+                "Rebuttal": "TLRebuttal"
+            }
+        },
+        "28": {
+            "Mojo Validation": {
+                "Validation": "QCValidation"
+            }
+        },
+        "30": {
+            "Mojo Validation": {
+                "QC Sample Selection": "QCJobDump",
+                "QC Allocation": "QCJobAllocation",
+                "QC Dashboard": "QCDashBoard",
+                "Validation": "QCValidation",
+                "QC Consolidation Report": "ConsolidateReport",
+                "QC Error Report": "QCErrorReport"
+            }
+        }
+    }
+}

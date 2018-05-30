@@ -1,0 +1,868 @@
+{
+    "2305": "Mojo_QC",
+    "UserList": {
+        "1": "admin",
+        "106400": "mojoqcpu",
+        "106401": "mojoqcpuone",
+        "106402": "mojotl",
+        "106403": "mojoqctl",
+        "106431": "mojoqcone"
+    },
+    "UserListRole": {
+        "106400_31": "mojoqcpu (Production User)",
+        "106401_31": "mojoqcpuone (Production User)",
+        "106402_3": "mojotl (Team Leader)",
+        "106403_30": "mojoqctl (QC TL)",
+        "106431_35": "mojoqcone (Core QC User)"
+    },
+    "RegionList": {
+        "12": "No Region"
+    },
+    "AttributeList": {
+        "12": [
+            7914,
+            7914,
+            7915,
+            7915,
+            7924,
+            7924,
+            7917,
+            7917,
+            7923,
+            7923,
+            7925,
+            7925,
+            7916,
+            7916,
+            7921,
+            7921,
+            7920,
+            7920,
+            7922,
+            7922,
+            7918,
+            7918,
+            7919,
+            7919
+        ]
+    },
+    "AttributeOrder": {
+        "12": {
+            "7914": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 7914,
+                "AttributeName": "DOMAIN_ID",
+                "AttributeId": 257,
+                "DisplayAttributeName": "DOMAIN ID",
+                "IsDistinct": 1,
+                "ControlName": "Label"
+            },
+            "7915": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 7915,
+                "AttributeName": "SOURCE_URL",
+                "AttributeId": 274,
+                "DisplayAttributeName": "SOURCE URL",
+                "IsDistinct": 1,
+                "ControlName": "Label"
+            },
+            "7924": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 7924,
+                "AttributeName": "ABOUT_US",
+                "AttributeId": 241,
+                "DisplayAttributeName": "About Us",
+                "IsDistinct": 1,
+                "ControlName": "MultiTextBox"
+            },
+            "7917": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 7917,
+                "AttributeName": "ADDRESS_BLOCK",
+                "AttributeId": 30,
+                "DisplayAttributeName": "Address Block",
+                "IsDistinct": 1,
+                "ControlName": "MultiTextBox"
+            },
+            "7923": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 7923,
+                "AttributeName": "ADDRESS_LINE",
+                "AttributeId": 248,
+                "DisplayAttributeName": "Address Line",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "7925": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 7925,
+                "AttributeName": "ALL_EMAIL",
+                "AttributeId": 250,
+                "DisplayAttributeName": "All Email",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "7916": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 7916,
+                "AttributeName": "ALL_PHONE_NUMBER",
+                "AttributeId": 251,
+                "DisplayAttributeName": "All Phone Number",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "7921": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 7921,
+                "AttributeName": "CITY",
+                "AttributeId": 52,
+                "DisplayAttributeName": "City",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": {
+                    "trichy": "trichy",
+                    "chennai": "chennai",
+                    "madurai": "madurai",
+                    "bangalore": "bangalore",
+                    "Mysore": "Mysore",
+                    "Koramangala": "Koramangala",
+                    "Palakkad": "Palakkad",
+                    "Thiruvanandapuram": "Thiruvanandapuram",
+                    "Auburn": "Auburn",
+                    "Hudson": "Hudson",
+                    "Kingston": "Kingston",
+                    "Geneva": "Geneva",
+                    "Dunkirk": "Dunkirk",
+                    "Buffalo": "Buffalo"
+                }
+            },
+            "7920": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 7920,
+                "AttributeName": "STATE",
+                "AttributeId": 197,
+                "DisplayAttributeName": "State",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": {
+                    "Tamilnadu": "Tamilnadu",
+                    "Kerala": "Kerala",
+                    "Karnadaga": "Karnadaga",
+                    "NewYork": "NewYork"
+                }
+            },
+            "7922": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 7922,
+                "AttributeName": "PO_BOX",
+                "AttributeId": 265,
+                "DisplayAttributeName": "PO Box",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "7918": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 7918,
+                "AttributeName": "COUNTRY",
+                "AttributeId": 80,
+                "DisplayAttributeName": "Country",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": {
+                    "India": "India",
+                    "US": "US"
+                }
+            },
+            "7919": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 7919,
+                "AttributeName": "ZIP_CODE",
+                "AttributeId": 280,
+                "DisplayAttributeName": "Zipcode",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            }
+        }
+    },
+    "ModuleAttributes": {
+        "12": {
+            "1160": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 257,
+                        "ProjectAttributeMasterId": 7914,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "DOMAIN ID",
+                        "IsDistinct": 1,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "DOMAIN_ID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "2": {
+                        "AttributeMasterId": 274,
+                        "ProjectAttributeMasterId": 7915,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "SOURCE URL",
+                        "IsDistinct": 1,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "SOURCE_URL",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "3": {
+                        "AttributeMasterId": 241,
+                        "ProjectAttributeMasterId": 7924,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "About Us",
+                        "IsDistinct": 1,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "ABOUT_US",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "4": {
+                        "AttributeMasterId": 30,
+                        "ProjectAttributeMasterId": 7917,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "Address Block",
+                        "IsDistinct": 1,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "ADDRESS_BLOCK",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "5": {
+                        "AttributeMasterId": 248,
+                        "ProjectAttributeMasterId": 7923,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "Address Line",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ADDRESS_LINE",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "6": {
+                        "AttributeMasterId": 250,
+                        "ProjectAttributeMasterId": 7925,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "All Email",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ALL_EMAIL",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "7": {
+                        "AttributeMasterId": 251,
+                        "ProjectAttributeMasterId": 7916,
+                        "DispalyOrder": "7",
+                        "DisplayAttributeName": "All Phone Number",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ALL_PHONE_NUMBER",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "8": {
+                        "AttributeMasterId": 52,
+                        "ProjectAttributeMasterId": 7921,
+                        "DispalyOrder": "8",
+                        "DisplayAttributeName": "City",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": {
+                            "trichy": "trichy",
+                            "chennai": "chennai",
+                            "madurai": "madurai",
+                            "bangalore": "bangalore",
+                            "Mysore": "Mysore",
+                            "Koramangala": "Koramangala",
+                            "Palakkad": "Palakkad",
+                            "Thiruvanandapuram": "Thiruvanandapuram",
+                            "Auburn": "Auburn",
+                            "Hudson": "Hudson",
+                            "Kingston": "Kingston",
+                            "Geneva": "Geneva",
+                            "Dunkirk": "Dunkirk",
+                            "Buffalo": "Buffalo"
+                        },
+                        "AttributeName": "CITY",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "9": {
+                        "AttributeMasterId": 197,
+                        "ProjectAttributeMasterId": 7920,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "State",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": {
+                            "Tamilnadu": "Tamilnadu",
+                            "Kerala": "Kerala",
+                            "Karnadaga": "Karnadaga",
+                            "NewYork": "NewYork"
+                        },
+                        "AttributeName": "STATE",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 265,
+                        "ProjectAttributeMasterId": 7922,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "PO Box",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "PO_BOX",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "11": {
+                        "AttributeMasterId": 80,
+                        "ProjectAttributeMasterId": 7918,
+                        "DispalyOrder": "11",
+                        "DisplayAttributeName": "Country",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": {
+                            "India": "India",
+                            "US": "US"
+                        },
+                        "AttributeName": "COUNTRY",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "12": {
+                        "AttributeMasterId": 280,
+                        "ProjectAttributeMasterId": 7919,
+                        "DispalyOrder": "12",
+                        "DisplayAttributeName": "Zipcode",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ZIP_CODE",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                }
+            },
+            "1161": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 257,
+                        "ProjectAttributeMasterId": 7914,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "DOMAIN ID",
+                        "IsDistinct": 1,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "DOMAIN_ID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "2": {
+                        "AttributeMasterId": 274,
+                        "ProjectAttributeMasterId": 7915,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "SOURCE URL",
+                        "IsDistinct": 1,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "SOURCE_URL",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "3": {
+                        "AttributeMasterId": 241,
+                        "ProjectAttributeMasterId": 7924,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "About Us",
+                        "IsDistinct": 1,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "ABOUT_US",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "4": {
+                        "AttributeMasterId": 30,
+                        "ProjectAttributeMasterId": 7917,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "Address Block",
+                        "IsDistinct": 1,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "ADDRESS_BLOCK",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "5": {
+                        "AttributeMasterId": 248,
+                        "ProjectAttributeMasterId": 7923,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "Address Line",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ADDRESS_LINE",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "6": {
+                        "AttributeMasterId": 250,
+                        "ProjectAttributeMasterId": 7925,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "All Email",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ALL_EMAIL",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "7": {
+                        "AttributeMasterId": 251,
+                        "ProjectAttributeMasterId": 7916,
+                        "DispalyOrder": "7",
+                        "DisplayAttributeName": "All Phone Number",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ALL_PHONE_NUMBER",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "8": {
+                        "AttributeMasterId": 52,
+                        "ProjectAttributeMasterId": 7921,
+                        "DispalyOrder": "8",
+                        "DisplayAttributeName": "City",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": {
+                            "trichy": "trichy",
+                            "chennai": "chennai",
+                            "madurai": "madurai",
+                            "bangalore": "bangalore",
+                            "Mysore": "Mysore",
+                            "Koramangala": "Koramangala",
+                            "Palakkad": "Palakkad",
+                            "Thiruvanandapuram": "Thiruvanandapuram",
+                            "Auburn": "Auburn",
+                            "Hudson": "Hudson",
+                            "Kingston": "Kingston",
+                            "Geneva": "Geneva",
+                            "Dunkirk": "Dunkirk",
+                            "Buffalo": "Buffalo"
+                        },
+                        "AttributeName": "CITY",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "9": {
+                        "AttributeMasterId": 197,
+                        "ProjectAttributeMasterId": 7920,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "State",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": {
+                            "Tamilnadu": "Tamilnadu",
+                            "Kerala": "Kerala",
+                            "Karnadaga": "Karnadaga",
+                            "NewYork": "NewYork"
+                        },
+                        "AttributeName": "STATE",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 265,
+                        "ProjectAttributeMasterId": 7922,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "PO Box",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "PO_BOX",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "11": {
+                        "AttributeMasterId": 80,
+                        "ProjectAttributeMasterId": 7918,
+                        "DispalyOrder": "11",
+                        "DisplayAttributeName": "Country",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": {
+                            "India": "India",
+                            "US": "US"
+                        },
+                        "AttributeName": "COUNTRY",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "12": {
+                        "AttributeMasterId": 280,
+                        "ProjectAttributeMasterId": 7919,
+                        "DispalyOrder": "12",
+                        "DisplayAttributeName": "Zipcode",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ZIP_CODE",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                }
+            }
+        }
+    },
+    "AttributeGroupMaster": {
+        "1160": {
+            "41": "ProductAttributes"
+        },
+        "1161": {
+            "41": "ProductAttributes"
+        }
+    },
+    "AttributeGroupMasterDirect": {
+        "41": "ProductAttributes"
+    },
+    "Menu": {
+        "3": {
+            "Manage Project": {
+                "Input Import": "Importinitiates",
+                "Production Dashboard": "ProductionDashBoards",
+                "Production View": "ProductionView"
+            },
+            "PU Queries": {
+                "PU Queries": "puquery"
+            }
+        },
+        "30": {
+            "QC Valid": {
+                "Batch Creation": "QCBatchMaster",
+                "Stratification Master": "StratificationRule",
+                "Hygiene Check": "HygieneCheck",
+                "Manage Error Category": "QCErrorCategory",
+                "Sample Selection": "QCSample"
+            }
+        },
+        "31": {
+            "Manage Project": {
+                "Production View": "ProductionView"
+            },
+            "QC Production": {
+                "Production": "GetJobCore",
+                "Production View": "ProductionViewUser"
+            }
+        },
+        "28": {
+            "QC Valid": {
+                "Validation": "QcValidation"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "Ready for Production",
+        "2": "Import Completed",
+        "3": "QC Completed",
+        "4": "QC Inprogress",
+        "5": "Ready for QC Batch",
+        "9": "Production Query",
+        "10": "Production Completed",
+        "11": "Production Inprogress",
+        "12": "Ready for QC",
+        "13": "Ready for QC Sampling",
+        "14": "Ready for Hygiene Check"
+    },
+    "ProjectGroupStatus": {
+        "Import": {
+            "2": "Import Completed"
+        },
+        "Production": {
+            "1": "Ready for Production",
+            "9": "Production Query",
+            "10": "Production Completed",
+            "11": "Production Inprogress"
+        },
+        "Validation": {
+            "3": "QC Completed",
+            "4": "QC Inprogress",
+            "5": "Ready for QC Batch",
+            "12": "Ready for QC",
+            "13": "Ready for QC Sampling",
+            "14": "Ready for Hygiene Check"
+        }
+    },
+    "Module": {
+        "142": "Manage Project",
+        "1160": "QC Production",
+        "88": "Input Import",
+        "1161": "QC Valid",
+        "128": "PU Queries"
+    },
+    "ModuleConfig": {
+        "142": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "1160": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": 1,
+            "IsHygineCheck": 1
+        },
+        "88": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "1161": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": 2,
+            "IsHygineCheck": null
+        },
+        "128": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        }
+    },
+    "ModuleUser": {
+        "142": {
+            "106400": {
+                "Id": 106400,
+                "Username": "mojoqcpu"
+            },
+            "106401": {
+                "Id": 106401,
+                "Username": "mojoqcpuone"
+            },
+            "106402": {
+                "Id": 106402,
+                "Username": "mojotl"
+            }
+        },
+        "1160": {
+            "106400": {
+                "Id": 106400,
+                "Username": "mojoqcpu"
+            },
+            "106401": {
+                "Id": 106401,
+                "Username": "mojoqcpuone"
+            }
+        },
+        "1161": {
+            "106403": {
+                "Id": 106403,
+                "Username": "mojoqctl"
+            }
+        },
+        "128": {
+            "106402": {
+                "Id": 106402,
+                "Username": "mojotl"
+            }
+        }
+    },
+    "ModuleStatusList": {
+        "1160": [
+            "Ready for Production",
+            "Production Inprogress",
+            "Production Completed",
+            "Production Query"
+        ],
+        "88": [
+            "Import InProgress",
+            "Import Completed",
+            "Import InComplete",
+            "Ready For Attribute Extraction"
+        ],
+        "1161": [
+            "Ready for QC Batch",
+            "Ready for Hygiene Check",
+            "Ready for QC Sampling",
+            "Ready for QC",
+            "QC Inprogress",
+            "QC Completed"
+        ]
+    },
+    "ModuleStatus": {
+        "1160": {
+            "2": {
+                "ModuleId": 1160,
+                "ModStatus": "Ready for Production",
+                "ModuleStatusIdentifier": "ReadyforProduction",
+                "StatusId": 2,
+                "FromStatus": "Import Completed"
+            },
+            "1": {
+                "ModuleId": 1160,
+                "ModStatus": "Production Inprogress",
+                "ModuleStatusIdentifier": "ProductionInprogress",
+                "StatusId": 1,
+                "FromStatus": "Ready for Production"
+            },
+            "11": {
+                "ModuleId": 1160,
+                "ModStatus": "Production Query",
+                "ModuleStatusIdentifier": "ProductionQuery",
+                "StatusId": 11,
+                "FromStatus": "Production Inprogress"
+            }
+        },
+        "1161": {
+            "10": {
+                "ModuleId": 1161,
+                "ModStatus": "Ready for QC Batch",
+                "ModuleStatusIdentifier": "ReadyforQCBatch",
+                "StatusId": 10,
+                "FromStatus": "Production Completed"
+            },
+            "5": {
+                "ModuleId": 1161,
+                "ModStatus": "Ready for Hygiene Check",
+                "ModuleStatusIdentifier": "ReadyforHygieneCheck",
+                "StatusId": 5,
+                "FromStatus": "Ready for QC Batch"
+            },
+            "4": {
+                "ModuleId": 1161,
+                "ModStatus": "QC Completed",
+                "ModuleStatusIdentifier": "QCCompleted",
+                "StatusId": 4,
+                "FromStatus": "QC Inprogress"
+            },
+            "14": {
+                "ModuleId": 1161,
+                "ModStatus": "Ready for QC Sampling",
+                "ModuleStatusIdentifier": "ReadyforQCSampling",
+                "StatusId": 14,
+                "FromStatus": "Ready for Hygiene Check"
+            },
+            "13": {
+                "ModuleId": 1161,
+                "ModStatus": "Ready for QC",
+                "ModuleStatusIdentifier": "ReadyforQC",
+                "StatusId": 13,
+                "FromStatus": "Ready for QC Sampling"
+            },
+            "12": {
+                "ModuleId": 1161,
+                "ModStatus": "QC Inprogress",
+                "ModuleStatusIdentifier": "QCInprogress",
+                "StatusId": 12,
+                "FromStatus": "Ready for QC"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "2": [
+            "Ready for Production",
+            1
+        ],
+        "1": [
+            "Production Inprogress",
+            11
+        ],
+        "11": [
+            "Production Completed",
+            10,
+            [
+                "Production Query",
+                9
+            ]
+        ],
+        "10": [
+            "Ready for QC Batch",
+            5
+        ],
+        "5": [
+            "Ready for Hygiene Check",
+            14
+        ],
+        "4": [
+            "QC Completed",
+            3
+        ],
+        "14": [
+            "Ready for QC Sampling",
+            13
+        ],
+        "13": [
+            "Ready for QC",
+            12
+        ],
+        "12": [
+            "QC Inprogress",
+            4
+        ]
+    },
+    "ProjectConfig": {
+        "DomainId": "257",
+        "DomainUrl": "274",
+        "InputId": "251",
+        "ProdDB_PageLimit": "100",
+        "ProductionView": "1",
+        "HygineCheck": "1"
+    },
+    "UserGroups": {
+        "2": "user1",
+        "3": "user2",
+        "1002": "vendor1",
+        "1003": "vendor2",
+        "1010": "MojoUrlVone",
+        "1011": "MojoUrlVtwo",
+        "1012": "mobius134243",
+        "1013": "mobius  1",
+        "1014": "12345",
+        "1015": "mobius234",
+        "1016": "mobius-123",
+        "1017": "12345-876",
+        "1018": "dad 1212",
+        "1019": "dad 12121",
+        "1020": "dad1212",
+        "1021": "123_uhe",
+        "1022": "fdgd5345",
+        "1023": "gdfg 45345",
+        "1024": "Mobius QC Single",
+        "1025": "Mojo Single",
+        "1026": "CencageLocalGroup1",
+        "2026": "CengageNpo",
+        "2027": "MojoCengage"
+    }
+}

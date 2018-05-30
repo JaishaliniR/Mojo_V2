@@ -1,0 +1,1288 @@
+{
+    "2294": "Mojo Url Monitoring",
+    "UserList": {
+        "1": "admin",
+        "96102": "teamlead",
+        "100985": "urlmonitoringPU",
+        "100986": "urlproductionPU"
+    },
+    "UserListRole": {
+        "96102_3": "teamlead (Team Leader)",
+        "100985_37": "urlmonitoringPU (Core Production User)",
+        "100986_31": "urlproductionPU (Production User)"
+    },
+    "RegionList": {
+        "12": "No Region"
+    },
+    "AttributeList": {
+        "12": [
+            6682,
+            6682,
+            6681,
+            6681,
+            6680,
+            6680,
+            6679,
+            6679,
+            6678,
+            6678,
+            6677,
+            6676,
+            6676,
+            6675,
+            6675,
+            6674,
+            6674,
+            6690,
+            6690,
+            6689,
+            6689,
+            6688,
+            6688,
+            6687,
+            6687,
+            6686,
+            6686,
+            6685,
+            6685,
+            6684,
+            6684,
+            6683,
+            6683,
+            6692,
+            6692,
+            6691,
+            6691
+        ]
+    },
+    "AttributeOrder": {
+        "12": {
+            "6682": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 6682,
+                "AttributeName": "DOMAIN_ID",
+                "AttributeId": 257,
+                "DisplayAttributeName": "DOMAIN_ID",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6681": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 6681,
+                "AttributeName": "INPUT_ID",
+                "AttributeId": 260,
+                "DisplayAttributeName": "INPUT_ID",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6680": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 6680,
+                "AttributeName": "SOURCE_URL",
+                "AttributeId": 274,
+                "DisplayAttributeName": "SOURCE_URL",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6679": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 6679,
+                "AttributeName": "Website",
+                "AttributeId": 235,
+                "DisplayAttributeName": "Website",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6678": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 6678,
+                "AttributeName": "Court_Name",
+                "AttributeId": 1433,
+                "DisplayAttributeName": "Court_Name",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6677": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 6677,
+                "AttributeName": "Division_Name",
+                "AttributeId": 1434,
+                "DisplayAttributeName": "Division_Name",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6676": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 6676,
+                "AttributeName": "Tenure_Start_Year",
+                "AttributeId": 1435,
+                "DisplayAttributeName": "Tenure_Start_Year",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6675": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 6675,
+                "AttributeName": "Phone",
+                "AttributeId": 158,
+                "DisplayAttributeName": "Phone",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6674": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 6674,
+                "AttributeName": "Fax",
+                "AttributeId": 1436,
+                "DisplayAttributeName": "Fax",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6690": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 6690,
+                "AttributeName": "Email",
+                "AttributeId": 90,
+                "DisplayAttributeName": "Email",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6689": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 6689,
+                "AttributeName": "Building",
+                "AttributeId": 1437,
+                "DisplayAttributeName": "Building",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6688": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 6688,
+                "AttributeName": "Street AND\/OR PO_Box",
+                "AttributeId": 1438,
+                "DisplayAttributeName": "Street AND\/OR PO_Box",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6687": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 6687,
+                "AttributeName": "City",
+                "AttributeId": 52,
+                "DisplayAttributeName": "City",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6686": {
+                "DispalyOrder": "14",
+                "ProjectAttributeId": 6686,
+                "AttributeName": "State",
+                "AttributeId": 197,
+                "DisplayAttributeName": "State",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6685": {
+                "DispalyOrder": "15",
+                "ProjectAttributeId": 6685,
+                "AttributeName": "Zip",
+                "AttributeId": 238,
+                "DisplayAttributeName": "Zip",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6684": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 6684,
+                "AttributeName": "Education",
+                "AttributeId": 1439,
+                "DisplayAttributeName": "Education",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6683": {
+                "DispalyOrder": "17",
+                "ProjectAttributeId": 6683,
+                "AttributeName": "Education(Honor)",
+                "AttributeId": 1440,
+                "DisplayAttributeName": "Education(Honor)",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6692": {
+                "DispalyOrder": "18",
+                "ProjectAttributeId": 6692,
+                "AttributeName": "Biog text",
+                "AttributeId": 1441,
+                "DisplayAttributeName": "Biog text",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6691": {
+                "DispalyOrder": "19",
+                "ProjectAttributeId": 6691,
+                "AttributeName": "File Name",
+                "AttributeId": 449,
+                "DisplayAttributeName": "File Name",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            }
+        }
+    },
+    "ValidationRules": {
+        "6682": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6681": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6680": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6679": {
+            "IsMandatory": 1,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6678": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6677": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6676": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6675": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6674": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6690": {
+            "IsMandatory": 1,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 1,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6689": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6688": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6687": {
+            "IsMandatory": 1,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6686": {
+            "IsMandatory": 1,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6685": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6684": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6683": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6692": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "6691": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        }
+    },
+    "ModuleAttributes": {
+        "12": {
+            "1152": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 257,
+                        "ProjectAttributeMasterId": 6682,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "DOMAIN_ID",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "DOMAIN_ID",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "2": {
+                        "AttributeMasterId": 260,
+                        "ProjectAttributeMasterId": 6681,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "INPUT_ID",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "INPUT_ID",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "3": {
+                        "AttributeMasterId": 274,
+                        "ProjectAttributeMasterId": 6680,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "SOURCE_URL",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "SOURCE_URL",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "4": {
+                        "AttributeMasterId": 235,
+                        "ProjectAttributeMasterId": 6679,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "Website",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Website",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "5": {
+                        "AttributeMasterId": 1433,
+                        "ProjectAttributeMasterId": 6678,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "Court_Name",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Court_Name",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "6": {
+                        "AttributeMasterId": 1434,
+                        "ProjectAttributeMasterId": 6677,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "Division_Name",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Division_Name",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "7": {
+                        "AttributeMasterId": 1435,
+                        "ProjectAttributeMasterId": 6676,
+                        "DispalyOrder": "7",
+                        "DisplayAttributeName": "Tenure_Start_Year",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Tenure_Start_Year",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "8": {
+                        "AttributeMasterId": 158,
+                        "ProjectAttributeMasterId": 6675,
+                        "DispalyOrder": "8",
+                        "DisplayAttributeName": "Phone",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Phone",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "9": {
+                        "AttributeMasterId": 1436,
+                        "ProjectAttributeMasterId": 6674,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "Fax",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Fax",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 90,
+                        "ProjectAttributeMasterId": 6690,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "Email",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Email",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "11": {
+                        "AttributeMasterId": 1437,
+                        "ProjectAttributeMasterId": 6689,
+                        "DispalyOrder": "11",
+                        "DisplayAttributeName": "Building",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Building",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "12": {
+                        "AttributeMasterId": 1438,
+                        "ProjectAttributeMasterId": 6688,
+                        "DispalyOrder": "12",
+                        "DisplayAttributeName": "Street AND\/OR PO_Box",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Street AND\/OR PO_Box",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "13": {
+                        "AttributeMasterId": 52,
+                        "ProjectAttributeMasterId": 6687,
+                        "DispalyOrder": "13",
+                        "DisplayAttributeName": "City",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "City",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "14": {
+                        "AttributeMasterId": 197,
+                        "ProjectAttributeMasterId": 6686,
+                        "DispalyOrder": "14",
+                        "DisplayAttributeName": "State",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "State",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "15": {
+                        "AttributeMasterId": 238,
+                        "ProjectAttributeMasterId": 6685,
+                        "DispalyOrder": "15",
+                        "DisplayAttributeName": "Zip",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Zip",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "16": {
+                        "AttributeMasterId": 1439,
+                        "ProjectAttributeMasterId": 6684,
+                        "DispalyOrder": "16",
+                        "DisplayAttributeName": "Education",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Education",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "17": {
+                        "AttributeMasterId": 1440,
+                        "ProjectAttributeMasterId": 6683,
+                        "DispalyOrder": "17",
+                        "DisplayAttributeName": "Education(Honor)",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Education(Honor)",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "18": {
+                        "AttributeMasterId": 1441,
+                        "ProjectAttributeMasterId": 6692,
+                        "DispalyOrder": "18",
+                        "DisplayAttributeName": "Biog text",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Biog text",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "19": {
+                        "AttributeMasterId": 449,
+                        "ProjectAttributeMasterId": 6691,
+                        "DispalyOrder": "19",
+                        "DisplayAttributeName": "File Name",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "File Name",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    }
+                }
+            },
+            "1153": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 257,
+                        "ProjectAttributeMasterId": 6682,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "DOMAIN_ID",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "DOMAIN_ID",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "2": {
+                        "AttributeMasterId": 260,
+                        "ProjectAttributeMasterId": 6681,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "INPUT_ID",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "INPUT_ID",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "3": {
+                        "AttributeMasterId": 274,
+                        "ProjectAttributeMasterId": 6680,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "SOURCE_URL",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "SOURCE_URL",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "4": {
+                        "AttributeMasterId": 235,
+                        "ProjectAttributeMasterId": 6679,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "Website",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Website",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "5": {
+                        "AttributeMasterId": 1433,
+                        "ProjectAttributeMasterId": 6678,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "Court_Name",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Court_Name",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "6": {
+                        "AttributeMasterId": 1434,
+                        "ProjectAttributeMasterId": 6677,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "Division_Name",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Division_Name",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "7": {
+                        "AttributeMasterId": 1435,
+                        "ProjectAttributeMasterId": 6676,
+                        "DispalyOrder": "7",
+                        "DisplayAttributeName": "Tenure_Start_Year",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Tenure_Start_Year",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "8": {
+                        "AttributeMasterId": 158,
+                        "ProjectAttributeMasterId": 6675,
+                        "DispalyOrder": "8",
+                        "DisplayAttributeName": "Phone",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Phone",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "9": {
+                        "AttributeMasterId": 1436,
+                        "ProjectAttributeMasterId": 6674,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "Fax",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Fax",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 90,
+                        "ProjectAttributeMasterId": 6690,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "Email",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Email",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "11": {
+                        "AttributeMasterId": 1437,
+                        "ProjectAttributeMasterId": 6689,
+                        "DispalyOrder": "11",
+                        "DisplayAttributeName": "Building",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Building",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "12": {
+                        "AttributeMasterId": 1438,
+                        "ProjectAttributeMasterId": 6688,
+                        "DispalyOrder": "12",
+                        "DisplayAttributeName": "Street AND\/OR PO_Box",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Street AND\/OR PO_Box",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "13": {
+                        "AttributeMasterId": 52,
+                        "ProjectAttributeMasterId": 6687,
+                        "DispalyOrder": "13",
+                        "DisplayAttributeName": "City",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "City",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "14": {
+                        "AttributeMasterId": 197,
+                        "ProjectAttributeMasterId": 6686,
+                        "DispalyOrder": "14",
+                        "DisplayAttributeName": "State",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "State",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "15": {
+                        "AttributeMasterId": 238,
+                        "ProjectAttributeMasterId": 6685,
+                        "DispalyOrder": "15",
+                        "DisplayAttributeName": "Zip",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Zip",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "16": {
+                        "AttributeMasterId": 1439,
+                        "ProjectAttributeMasterId": 6684,
+                        "DispalyOrder": "16",
+                        "DisplayAttributeName": "Education",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Education",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "17": {
+                        "AttributeMasterId": 1440,
+                        "ProjectAttributeMasterId": 6683,
+                        "DispalyOrder": "17",
+                        "DisplayAttributeName": "Education(Honor)",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Education(Honor)",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "18": {
+                        "AttributeMasterId": 1441,
+                        "ProjectAttributeMasterId": 6692,
+                        "DispalyOrder": "18",
+                        "DisplayAttributeName": "Biog text",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Biog text",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    },
+                    "19": {
+                        "AttributeMasterId": 449,
+                        "ProjectAttributeMasterId": 6691,
+                        "DispalyOrder": "19",
+                        "DisplayAttributeName": "File Name",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "File Name",
+                        "MainGroupId": 86,
+                        "SubGroupId": 0
+                    }
+                }
+            }
+        }
+    },
+    "AttributeGroupMaster": {
+        "1152": {
+            "86": "PH Details"
+        },
+        "1153": {
+            "86": "PH Details"
+        }
+    },
+    "AttributeGroupMasterDirect": {
+        "86": "PH Details"
+    },
+    "Menu": {
+        "31": {
+            "URL Production": {
+                "Production": "getjobcore"
+            }
+        },
+        "37": {
+            "URL Monitoring": {
+                "Production": "Getjoburlmonitoring"
+            }
+        },
+        "3": {
+            "Manage Project": {
+                "Input Import": "Importinitiates",
+                "Production Dashboard": "ProductionDashBoards",
+                "Production View": "ProductionView"
+            },
+            "Report": {
+                "Change Report": "ChangeReport",
+                "Url Status Report": "UrlStatusReport"
+            },
+            "Delivery": {
+                "Export": "Export"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "Production Completed",
+        "2": "Production Inprogress",
+        "3": "Ready For Production",
+        "4": "URL Monitoring Completed",
+        "5": "URL Monitoring Inprogress",
+        "6": "Ready For URL Monitoring"
+    },
+    "ProjectGroupStatus": {
+        "URL Monitoring": {
+            "4": "URL Monitoring Completed",
+            "5": "URL Monitoring Inprogress",
+            "6": "Ready For URL Monitoring"
+        },
+        "URL Production": {
+            "1": "Production Completed",
+            "2": "Production Inprogress",
+            "3": "Ready For Production"
+        }
+    },
+    "Module": {
+        "1153": "URL Production",
+        "142": "Manage Project",
+        "1152": "URL Monitoring",
+        "133": "Report",
+        "131": "Delivery"
+    },
+    "ModuleStatusList": {
+        "1153": [
+            "Ready For Production",
+            "Production Inprogress",
+            "Production Completed"
+        ],
+        "1152": [
+            "Ready For URL Monitoring",
+            "URL Monitoring Inprogress",
+            "URL Monitoring Completed"
+        ],
+        "131": [
+            "Ready For Json",
+            "Json Inprogress",
+            "Delivered",
+            "Ready For Delivery",
+            "Delivery Completed",
+            "Json Error",
+            "Json Yet To Start"
+        ]
+    },
+    "ModuleConfig": {
+        "1153": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": 0,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "1152": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": 1,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        }
+    },
+    "ModuleStatus": {
+        "1153": {
+            "3": {
+                "ModuleId": 1153,
+                "ModStatus": "Production Inprogress",
+                "ModuleStatusIdentifier": "ProductionInprogress",
+                "StatusId": 3,
+                "FromStatus": "Ready For Production"
+            },
+            "2": {
+                "ModuleId": 1153,
+                "ModStatus": "Production Completed",
+                "ModuleStatusIdentifier": "ProdutionCompleted",
+                "StatusId": 2,
+                "FromStatus": "Production Inprogress"
+            }
+        },
+        "1152": {
+            "6": {
+                "ModuleId": 1152,
+                "ModStatus": "URL Monitoring Inprogress",
+                "ModuleStatusIdentifier": "URLMonitoringInprogress",
+                "StatusId": 6,
+                "FromStatus": "Ready For URL Monitoring"
+            },
+            "5": {
+                "ModuleId": 1152,
+                "ModStatus": "URL Monitoring Completed",
+                "ModuleStatusIdentifier": "URLMonitoringCompleted",
+                "StatusId": 5,
+                "FromStatus": "URL Monitoring Inprogress"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "3": [
+            "Production Inprogress",
+            2
+        ],
+        "2": [
+            "Production Completed",
+            1
+        ],
+        "6": [
+            "URL Monitoring Inprogress",
+            5
+        ],
+        "5": [
+            "URL Monitoring Completed",
+            4
+        ]
+    },
+    "ModuleUser": {
+        "1153": {
+            "100986": {
+                "Id": 100986,
+                "Username": "urlproductionPU"
+            }
+        },
+        "142": {
+            "96102": {
+                "Id": 96102,
+                "Username": "teamlead"
+            }
+        },
+        "1152": {
+            "100985": {
+                "Id": 100985,
+                "Username": "urlmonitoringPU"
+            }
+        },
+        "133": {
+            "96102": {
+                "Id": 96102,
+                "Username": "teamlead"
+            }
+        },
+        "131": {
+            "96102": {
+                "Id": 96102,
+                "Username": "teamlead"
+            }
+        }
+    },
+    "ProjectConfig": {
+        "DomainId": "257",
+        "InputId": "260",
+        "DomainUrl": "274",
+        "ProdDB_PageLimit": "50",
+        "ProductionView": "1",
+        "HygineCheck": ""
+    },
+    "UserGroups": {
+        "2": "user1",
+        "3": "user2",
+        "1002": "vendor1",
+        "1003": "vendor2",
+        "1010": "MojoUrlVone",
+        "1011": "MojoUrlVtwo",
+        "1012": "mobius134243",
+        "1013": "mobius  1",
+        "1014": "12345",
+        "1015": "mobius234",
+        "1016": "mobius-123",
+        "1017": "12345-876",
+        "1018": "dad 1212",
+        "1019": "dad 12121",
+        "1020": "dad1212",
+        "1021": "123_uhe",
+        "1022": "fdgd5345",
+        "1023": "gdfg 45345",
+        "1024": "Mobius QC Single",
+        "1025": "Mojo Single",
+        "1026": "CencageLocalGroup1",
+        "2026": "CengageNpo",
+        "2027": "MojoCengage"
+    }
+}

@@ -1,0 +1,199 @@
+{
+    "1234": "navarik",
+    "AttributeGroupMaster": [],
+    "AttributeGroupMasterDirect": [],
+    "ProjectStatus": {
+        "1": "Import InProgress",
+        "2": "Import Completed",
+        "3": "URL Crawling In Progress",
+        "4": "URL Crawling Exception",
+        "5": "URL Crawling Completed",
+        "6": "Ready For URL Validation",
+        "7": "URL Validation",
+        "8": "URL Validation Completed",
+        "9": "URL Validation Rejected",
+        "10": "Ready For URL Production",
+        "11": "URL Production",
+        "12": "URL Production Completed",
+        "13": "URL Production Rejected",
+        "36": "Ready For URL Crawling",
+        "37": "URL Crawling Partial",
+        "14": "Ready For URL QC",
+        "15": "URL QC",
+        "16": "URL QC Marked",
+        "17": "URL QC Accepted",
+        "18": "URL QC Rejected",
+        "19": "Attribute Extraction InProgress",
+        "20": "Attribute Extraction Exception",
+        "21": "Attribute Extraction Completed",
+        "22": "Ready For Attribute Validation",
+        "23": "Attribute Validation",
+        "24": "Attribute Validation Completed",
+        "25": "Attribute Validation Rejected",
+        "26": "Ready For Attribute Production",
+        "27": "Attribute Production",
+        "28": "Attribute Production Completed",
+        "29": "Attribute Production Rejected",
+        "35": "Ready For Attribute Extraction",
+        "30": "Ready For QC",
+        "31": "QC",
+        "32": "QC Marked",
+        "33": "QC Accepted",
+        "34": "QC Rejected"
+    },
+    "ProjectGroupStatus": {
+        "Import": {
+            "1": "Import InProgress",
+            "2": "Import Completed"
+        },
+        "URL Verification": {
+            "3": "URL Crawling In Progress",
+            "4": "URL Crawling Exception",
+            "5": "URL Crawling Completed",
+            "6": "Ready For URL Validation",
+            "7": "URL Validation",
+            "8": "URL Validation Completed",
+            "9": "URL Validation Rejected",
+            "10": "Ready For URL Production",
+            "11": "URL Production",
+            "12": "URL Production Completed",
+            "13": "URL Production Rejected",
+            "36": "Ready For URL Crawling",
+            "37": "URL Crawling Partial"
+        },
+        "URL QC": {
+            "14": "Ready For URL QC",
+            "15": "URL QC",
+            "16": "URL QC Marked",
+            "17": "URL QC Accepted",
+            "18": "URL QC Rejected"
+        },
+        "Attribute Verification": {
+            "19": "Attribute Extraction InProgress",
+            "20": "Attribute Extraction Exception",
+            "21": "Attribute Extraction Completed",
+            "22": "Ready For Attribute Validation",
+            "23": "Attribute Validation",
+            "24": "Attribute Validation Completed",
+            "25": "Attribute Validation Rejected",
+            "26": "Ready For Attribute Production",
+            "27": "Attribute Production",
+            "28": "Attribute Production Completed",
+            "29": "Attribute Production Rejected",
+            "35": "Ready For Attribute Extraction"
+        },
+        "QC": {
+            "30": "Ready For QC",
+            "31": "QC",
+            "32": "QC Marked",
+            "33": "QC Accepted",
+            "34": "QC Rejected"
+        }
+    },
+    "Module": {
+        "1": "Url-Validation",
+        "71": "Batch Dashboard",
+        "48": "QC Batch Creation",
+        "90": "URL-Finder",
+        "88": "Input Import",
+        "51": "QC Feedback",
+        "44": "QC Allocation",
+        "14": "Url-Production",
+        "70": "Batch Management",
+        "15": "Manage Allocation",
+        "65": "Url QC",
+        "40": "DashBoard ",
+        "43": "QC",
+        "49": "Export",
+        "50": "QC Dashboard",
+        "61": "QC Acceptance Criteria",
+        "102": "Crawler Dashboard",
+        "115": "VM Dashboard"
+    },
+    "ModuleStatusList": {
+        "1": [
+            "Ready For Validation",
+            "Validation",
+            "Validation Accepted",
+            "Validation Rejected"
+        ],
+        "48": [
+            "Url Validation&Production Completed"
+        ],
+        "90": [
+            "Ready For URL Crawling",
+            "URL Crawling InProgress",
+            "Crawling Exception",
+            "Crawling Completed",
+            "Crawling Partial"
+        ],
+        "88": [
+            "Import InProgress",
+            "Import Completed",
+            "Import InComplete",
+            "Ready For Attribute Extraction"
+        ],
+        "14": [
+            "Ready For Production",
+            "Production",
+            "Production Accepted",
+            "Production Rejected"
+        ],
+        "65": [
+            "Available For QcBatchCreation",
+            "Ready For QcAllocation",
+            "QC Allotted",
+            "QC Accepted",
+            "QC Rejected",
+            "QC Marked",
+            "QC Rejected Allotted"
+        ],
+        "43": [
+            "Available For QcBatchCreation",
+            "Ready For QcAllocation",
+            "QC Allotted",
+            "QC Accepted",
+            "QC Rejected",
+            "QC Marked",
+            "QC Rejected Allotted",
+            "Ready For QC",
+            "QC Inprogress",
+            "QC Completed"
+        ],
+        "50": [
+            "QC",
+            "QC Accepted",
+            "QC Rejected"
+        ]
+    },
+    "ProjectConfig": {
+        "ProdDB_PageLimit": "34",
+        "ProductionView": "2",
+        "HygineCheck": "1"
+    },
+    "UserGroups": {
+        "2": "user1",
+        "3": "user2",
+        "1002": "vendor1",
+        "1003": "vendor2",
+        "1010": "MojoUrlVone",
+        "1011": "MojoUrlVtwo",
+        "1012": "mobius134243",
+        "1013": "mobius  1",
+        "1014": "12345",
+        "1015": "mobius234",
+        "1016": "mobius-123",
+        "1017": "12345-876",
+        "1018": "dad 1212",
+        "1019": "dad 12121",
+        "1020": "dad1212",
+        "1021": "123_uhe",
+        "1022": "fdgd5345",
+        "1023": "gdfg 45345",
+        "1024": "Mobius QC Single",
+        "1025": "Mojo Single",
+        "1026": "CencageLocalGroup1",
+        "2026": "CengageNpo",
+        "2027": "MojoCengage"
+    }
+}

@@ -1,0 +1,904 @@
+{
+    "1274": "Yell",
+    "UserList": {
+        "1": "admin",
+        "94996": "yelluser",
+        "94997": "yelltl",
+        "94998": "yellqcuser",
+        "94999": "yellqctl",
+        "95196": "userone",
+        "95205": "userthirteen",
+        "95210": "userfourteen",
+        "95215": "userfifteen",
+        "95220": "usersixteen",
+        "95225": "userseventeen",
+        "95230": "usereighteen",
+        "95235": "usernineteen",
+        "95240": "usertwenty",
+        "95245": "usertwentyone",
+        "95250": "usertwentytwo",
+        "95255": "usertwentythree",
+        "95260": "usertwentyfour",
+        "95265": "usertwentyfive",
+        "95270": "usertwentysix",
+        "95275": "usertwentyseven",
+        "95280": "usertwentyeight",
+        "95285": "usertwentynine",
+        "95290": "userthirty",
+        "95295": "userthirtyone",
+        "95300": "userthirtytwo",
+        "95305": "userthirtythree",
+        "95310": "userthirtyfour",
+        "95315": "userthirtyfive",
+        "95320": "userthirtysix",
+        "95325": "userthirtyseven",
+        "95330": "userthirtyeight",
+        "95335": "userthirtynine",
+        "95340": "userforty",
+        "95345": "userfortyone",
+        "95350": "userfortytwo",
+        "95355": "userfortythree",
+        "95360": "userfortyfour",
+        "95365": "userfortyfive",
+        "95523": "usertone",
+        "95527": "userqc",
+        "95528": "usertl",
+        "95534": "usertwo",
+        "95543": "userthree",
+        "95548": "userfour",
+        "95553": "userfive",
+        "95558": "usersix",
+        "95595": "usertwelve",
+        "95606": "userseventyeight",
+        "95611": "userseventynine",
+        "95616": "usereighty",
+        "95650": "usereightysix",
+        "95659": "usereightyseven",
+        "95664": "usereightyeight",
+        "95669": "usereightynine",
+        "95674": "userninety",
+        "95679": "userninetyone",
+        "95684": "userninetytwo",
+        "95689": "userninetythree",
+        "95694": "userninetyfour",
+        "95699": "userninetyfive",
+        "95704": "userninetysix",
+        "95709": "userninetyseven",
+        "95714": "userninetyeight",
+        "95719": "userninetynine",
+        "95728": "userhundredandone",
+        "95733": "userhundredandtwo",
+        "95738": "userhundredandthree",
+        "95743": "userhundredandfour",
+        "95748": "userhundredandfive",
+        "95753": "userhundredandsix",
+        "95758": "userhundredandseven",
+        "95763": "userhundredandeight",
+        "95768": "userhundredandnine",
+        "95773": "userhundredandten",
+        "95778": "userhundredandeleven",
+        "95783": "userhundredandtwelve",
+        "95788": "userhundredandthirteen",
+        "95793": "userhundredandfourteen",
+        "95798": "userhundredandfifteen",
+        "95803": "userhundredandsixteen",
+        "95808": "userhundredandseventeen",
+        "95813": "userhundredandeighteen"
+    },
+    "RegionList": {
+        "10": "UK"
+    },
+    "AttributeList": {
+        "10": [
+            5089,
+            5089,
+            5092,
+            5092,
+            5090,
+            5090,
+            5102,
+            5102,
+            5088,
+            5088,
+            5085,
+            5085,
+            5084,
+            5084,
+            5086,
+            5086,
+            5096,
+            5096,
+            5095,
+            5095,
+            5093,
+            5093,
+            5087,
+            5087,
+            5104,
+            5104,
+            5103,
+            5103,
+            5105,
+            5105
+        ]
+    },
+    "AttributeOrder": {
+        "10": {
+            "5089": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 5089,
+                "AttributeName": "Address line",
+                "AttributeId": 283,
+                "DisplayAttributeName": "Address line",
+                "ControlName": "TextBox"
+            },
+            "5092": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 5092,
+                "AttributeName": "Address Source",
+                "AttributeId": 286,
+                "DisplayAttributeName": "Address Source",
+                "ControlName": "TextBox"
+            },
+            "5090": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 5090,
+                "AttributeName": "City\/County",
+                "AttributeId": 284,
+                "DisplayAttributeName": "City\/County",
+                "ControlName": "TextBox"
+            },
+            "5102": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 5102,
+                "AttributeName": "Comments",
+                "AttributeId": 61,
+                "DisplayAttributeName": "Comments",
+                "ControlName": "TextBox"
+            },
+            "5088": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 5088,
+                "AttributeName": "Company Name",
+                "AttributeId": 62,
+                "DisplayAttributeName": "Company Name",
+                "ControlName": "TextBox"
+            },
+            "5085": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 5085,
+                "AttributeName": "DOMAIN",
+                "AttributeId": 256,
+                "DisplayAttributeName": "DOMAIN",
+                "ControlName": "TextBox"
+            },
+            "5084": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 5084,
+                "AttributeName": "MOB_ID",
+                "AttributeId": 143,
+                "DisplayAttributeName": "MOB_ID",
+                "ControlName": "TextBox"
+            },
+            "5086": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 5086,
+                "AttributeName": "Mobius Url",
+                "AttributeId": 281,
+                "DisplayAttributeName": "Mobius Url",
+                "ControlName": "TextBox"
+            },
+            "5096": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 5096,
+                "AttributeName": "Other Phone Source",
+                "AttributeId": 290,
+                "DisplayAttributeName": "Other Phone Source",
+                "ControlName": "TextBox"
+            },
+            "5095": {
+                "DispalyOrder": "14",
+                "ProjectAttributeId": 5095,
+                "AttributeName": "OtherPhone",
+                "AttributeId": 289,
+                "DisplayAttributeName": "OtherPhone",
+                "ControlName": "TextBox"
+            },
+            "5093": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 5093,
+                "AttributeName": "PhoneNumber",
+                "AttributeId": 287,
+                "DisplayAttributeName": "PhoneNumber",
+                "ControlName": "TextBox"
+            },
+            "5087": {
+                "DispalyOrder": "17",
+                "ProjectAttributeId": 5087,
+                "AttributeName": "Url Status",
+                "AttributeId": 282,
+                "DisplayAttributeName": "Url Status",
+                "ControlName": "TextBox"
+            },
+            "5104": {
+                "DispalyOrder": "20",
+                "ProjectAttributeId": 5104,
+                "AttributeName": "INPUT_ID",
+                "AttributeId": 260,
+                "DisplayAttributeName": "Input ID",
+                "ControlName": "TextBox"
+            },
+            "5103": {
+                "DispalyOrder": "21",
+                "ProjectAttributeId": 5103,
+                "AttributeName": "DOMAIN_ID",
+                "AttributeId": 257,
+                "DisplayAttributeName": "Domain ID",
+                "ControlName": "Label"
+            },
+            "5105": {
+                "DispalyOrder": "22",
+                "ProjectAttributeId": 5105,
+                "AttributeName": "REGION_SOURCE_URL",
+                "AttributeId": 269,
+                "DisplayAttributeName": "Region Source Url",
+                "ControlName": "Label"
+            }
+        }
+    },
+    "Menu": {
+        "30": {
+            "Mojo Validation": {
+                "QC Sample Selection": "QCJobDump",
+                "QC Allocation": "QCJobAllocation",
+                "QC Dashboard": "QCDashBoard",
+                "Validation": "QCValidation"
+            }
+        },
+        "28": {
+            "Mojo Validation": {
+                "Validation": "QCValidation"
+            }
+        },
+        "3": {
+            "Mojo Production": {
+                "Job Dashboard": "ProductionDashboards"
+            },
+            "Manage Project": {
+                "Export Output": "OutputExport"
+            },
+            "Queries": {
+                "PU Queries": "Puquery"
+            },
+            "Rebuttal": {
+                "Rebuttal": "TLRebuttal"
+            }
+        },
+        "31": {
+            "Mojo Production": {
+                "Production": "GetJob"
+            },
+            "Search": {
+                "Search Page": ""
+            }
+        }
+    },
+    "Module": {
+        "140": "Mojo Production",
+        "142": "Manage Project",
+        "148": "Mojo Validation",
+        "138": "Search",
+        "141": "Queries",
+        "127": "Rebuttal"
+    },
+    "ModuleStatusList": {
+        "140": [
+            "Ready for Production",
+            "Production In Progress",
+            "Ready for QC",
+            "QC sample selected",
+            "Ready For TL Rebutal",
+            "Skip",
+            "Skip Inprogress",
+            "Rework",
+            "Rework InProgress",
+            "QC Rejected",
+            "ReadyForRejection",
+            "FileRejected",
+            "Change",
+            "No Change",
+            "NA",
+            "Production Completed",
+            "Query",
+            "Hold",
+            "QC Inprogress",
+            "QC Complete",
+            "Ready  For Json",
+            "Delivered"
+        ],
+        "148": [
+            "Ready For Validation",
+            "Validation InProgress",
+            "Validation Completed",
+            "Production Complete",
+            "Ready For Sampling",
+            "QC Sample Selected",
+            "Ready For QC",
+            "QC InProgress",
+            "QC Completed",
+            "QC Accepted",
+            "QC Rejected",
+            "Rework",
+            "Ready For TL Rebutal",
+            "QC Sample Selected",
+            "QC Accepted",
+            "QC Rejected",
+            "Delivered",
+            "Ready For QC",
+            "QC Inprogress"
+        ],
+        "127": [
+            "Ready For TL Rebuttal",
+            "TL Rebuttal Rejected",
+            "TL Rebuttal Accepted"
+        ]
+    },
+    "ModuleUser": {
+        "140": {
+            "94996": {
+                "Id": 94996,
+                "Username": "yelluser"
+            },
+            "94997": {
+                "Id": 94997,
+                "Username": "yelltl"
+            },
+            "95196": {
+                "Id": 95196,
+                "Username": "userone"
+            },
+            "95205": {
+                "Id": 95205,
+                "Username": "userthirteen"
+            },
+            "95210": {
+                "Id": 95210,
+                "Username": "userfourteen"
+            },
+            "95215": {
+                "Id": 95215,
+                "Username": "userfifteen"
+            },
+            "95220": {
+                "Id": 95220,
+                "Username": "usersixteen"
+            },
+            "95225": {
+                "Id": 95225,
+                "Username": "userseventeen"
+            },
+            "95230": {
+                "Id": 95230,
+                "Username": "usereighteen"
+            },
+            "95235": {
+                "Id": 95235,
+                "Username": "usernineteen"
+            },
+            "95240": {
+                "Id": 95240,
+                "Username": "usertwenty"
+            },
+            "95245": {
+                "Id": 95245,
+                "Username": "usertwentyone"
+            },
+            "95250": {
+                "Id": 95250,
+                "Username": "usertwentytwo"
+            },
+            "95255": {
+                "Id": 95255,
+                "Username": "usertwentythree"
+            },
+            "95260": {
+                "Id": 95260,
+                "Username": "usertwentyfour"
+            },
+            "95265": {
+                "Id": 95265,
+                "Username": "usertwentyfive"
+            },
+            "95270": {
+                "Id": 95270,
+                "Username": "usertwentysix"
+            },
+            "95275": {
+                "Id": 95275,
+                "Username": "usertwentyseven"
+            },
+            "95280": {
+                "Id": 95280,
+                "Username": "usertwentyeight"
+            },
+            "95285": {
+                "Id": 95285,
+                "Username": "usertwentynine"
+            },
+            "95290": {
+                "Id": 95290,
+                "Username": "userthirty"
+            },
+            "95295": {
+                "Id": 95295,
+                "Username": "userthirtyone"
+            },
+            "95300": {
+                "Id": 95300,
+                "Username": "userthirtytwo"
+            },
+            "95305": {
+                "Id": 95305,
+                "Username": "userthirtythree"
+            },
+            "95310": {
+                "Id": 95310,
+                "Username": "userthirtyfour"
+            },
+            "95315": {
+                "Id": 95315,
+                "Username": "userthirtyfive"
+            },
+            "95320": {
+                "Id": 95320,
+                "Username": "userthirtysix"
+            },
+            "95325": {
+                "Id": 95325,
+                "Username": "userthirtyseven"
+            },
+            "95330": {
+                "Id": 95330,
+                "Username": "userthirtyeight"
+            },
+            "95335": {
+                "Id": 95335,
+                "Username": "userthirtynine"
+            },
+            "95340": {
+                "Id": 95340,
+                "Username": "userforty"
+            },
+            "95345": {
+                "Id": 95345,
+                "Username": "userfortyone"
+            },
+            "95350": {
+                "Id": 95350,
+                "Username": "userfortytwo"
+            },
+            "95355": {
+                "Id": 95355,
+                "Username": "userfortythree"
+            },
+            "95360": {
+                "Id": 95360,
+                "Username": "userfortyfour"
+            },
+            "95365": {
+                "Id": 95365,
+                "Username": "userfortyfive"
+            },
+            "95528": {
+                "Id": 95528,
+                "Username": "usertl"
+            },
+            "95595": {
+                "Id": 95595,
+                "Username": "usertwelve"
+            },
+            "95606": {
+                "Id": 95606,
+                "Username": "userseventyeight"
+            },
+            "95611": {
+                "Id": 95611,
+                "Username": "userseventynine"
+            },
+            "95616": {
+                "Id": 95616,
+                "Username": "usereighty"
+            }
+        },
+        "142": {
+            "94997": {
+                "Id": 94997,
+                "Username": "yelltl"
+            },
+            "95528": {
+                "Id": 95528,
+                "Username": "usertl"
+            },
+            "95595": {
+                "Id": 95595,
+                "Username": "usertwelve"
+            },
+            "95606": {
+                "Id": 95606,
+                "Username": "userseventyeight"
+            },
+            "95611": {
+                "Id": 95611,
+                "Username": "userseventynine"
+            },
+            "95616": {
+                "Id": 95616,
+                "Username": "usereighty"
+            }
+        },
+        "148": {
+            "94998": {
+                "Id": 94998,
+                "Username": "yellqcuser"
+            },
+            "94999": {
+                "Id": 94999,
+                "Username": "yellqctl"
+            },
+            "95523": {
+                "Id": 95523,
+                "Username": "usertone"
+            },
+            "95527": {
+                "Id": 95527,
+                "Username": "userqc"
+            },
+            "95534": {
+                "Id": 95534,
+                "Username": "usertwo"
+            },
+            "95543": {
+                "Id": 95543,
+                "Username": "userthree"
+            },
+            "95548": {
+                "Id": 95548,
+                "Username": "userfour"
+            },
+            "95553": {
+                "Id": 95553,
+                "Username": "userfive"
+            },
+            "95558": {
+                "Id": 95558,
+                "Username": "usersix"
+            },
+            "95650": {
+                "Id": 95650,
+                "Username": "usereightysix"
+            },
+            "95659": {
+                "Id": 95659,
+                "Username": "usereightyseven"
+            },
+            "95664": {
+                "Id": 95664,
+                "Username": "usereightyeight"
+            },
+            "95669": {
+                "Id": 95669,
+                "Username": "usereightynine"
+            },
+            "95674": {
+                "Id": 95674,
+                "Username": "userninety"
+            },
+            "95679": {
+                "Id": 95679,
+                "Username": "userninetyone"
+            },
+            "95684": {
+                "Id": 95684,
+                "Username": "userninetytwo"
+            },
+            "95689": {
+                "Id": 95689,
+                "Username": "userninetythree"
+            },
+            "95694": {
+                "Id": 95694,
+                "Username": "userninetyfour"
+            },
+            "95699": {
+                "Id": 95699,
+                "Username": "userninetyfive"
+            },
+            "95704": {
+                "Id": 95704,
+                "Username": "userninetysix"
+            },
+            "95709": {
+                "Id": 95709,
+                "Username": "userninetyseven"
+            },
+            "95714": {
+                "Id": 95714,
+                "Username": "userninetyeight"
+            },
+            "95719": {
+                "Id": 95719,
+                "Username": "userninetynine"
+            },
+            "95728": {
+                "Id": 95728,
+                "Username": "userhundredandone"
+            },
+            "95733": {
+                "Id": 95733,
+                "Username": "userhundredandtwo"
+            },
+            "95738": {
+                "Id": 95738,
+                "Username": "userhundredandthree"
+            },
+            "95743": {
+                "Id": 95743,
+                "Username": "userhundredandfour"
+            },
+            "95748": {
+                "Id": 95748,
+                "Username": "userhundredandfive"
+            },
+            "95753": {
+                "Id": 95753,
+                "Username": "userhundredandsix"
+            },
+            "95758": {
+                "Id": 95758,
+                "Username": "userhundredandseven"
+            },
+            "95763": {
+                "Id": 95763,
+                "Username": "userhundredandeight"
+            },
+            "95768": {
+                "Id": 95768,
+                "Username": "userhundredandnine"
+            },
+            "95773": {
+                "Id": 95773,
+                "Username": "userhundredandten"
+            },
+            "95778": {
+                "Id": 95778,
+                "Username": "userhundredandeleven"
+            },
+            "95783": {
+                "Id": 95783,
+                "Username": "userhundredandtwelve"
+            },
+            "95788": {
+                "Id": 95788,
+                "Username": "userhundredandthirteen"
+            },
+            "95793": {
+                "Id": 95793,
+                "Username": "userhundredandfourteen"
+            },
+            "95798": {
+                "Id": 95798,
+                "Username": "userhundredandfifteen"
+            },
+            "95803": {
+                "Id": 95803,
+                "Username": "userhundredandsixteen"
+            },
+            "95808": {
+                "Id": 95808,
+                "Username": "userhundredandseventeen"
+            },
+            "95813": {
+                "Id": 95813,
+                "Username": "userhundredandeighteen"
+            }
+        },
+        "138": {
+            "94996": {
+                "Id": 94996,
+                "Username": "yelluser"
+            },
+            "95196": {
+                "Id": 95196,
+                "Username": "userone"
+            },
+            "95205": {
+                "Id": 95205,
+                "Username": "userthirteen"
+            },
+            "95210": {
+                "Id": 95210,
+                "Username": "userfourteen"
+            },
+            "95215": {
+                "Id": 95215,
+                "Username": "userfifteen"
+            },
+            "95220": {
+                "Id": 95220,
+                "Username": "usersixteen"
+            },
+            "95225": {
+                "Id": 95225,
+                "Username": "userseventeen"
+            },
+            "95230": {
+                "Id": 95230,
+                "Username": "usereighteen"
+            },
+            "95235": {
+                "Id": 95235,
+                "Username": "usernineteen"
+            },
+            "95240": {
+                "Id": 95240,
+                "Username": "usertwenty"
+            },
+            "95245": {
+                "Id": 95245,
+                "Username": "usertwentyone"
+            },
+            "95250": {
+                "Id": 95250,
+                "Username": "usertwentytwo"
+            },
+            "95255": {
+                "Id": 95255,
+                "Username": "usertwentythree"
+            },
+            "95260": {
+                "Id": 95260,
+                "Username": "usertwentyfour"
+            },
+            "95265": {
+                "Id": 95265,
+                "Username": "usertwentyfive"
+            },
+            "95270": {
+                "Id": 95270,
+                "Username": "usertwentysix"
+            },
+            "95275": {
+                "Id": 95275,
+                "Username": "usertwentyseven"
+            },
+            "95280": {
+                "Id": 95280,
+                "Username": "usertwentyeight"
+            },
+            "95285": {
+                "Id": 95285,
+                "Username": "usertwentynine"
+            },
+            "95290": {
+                "Id": 95290,
+                "Username": "userthirty"
+            },
+            "95295": {
+                "Id": 95295,
+                "Username": "userthirtyone"
+            },
+            "95300": {
+                "Id": 95300,
+                "Username": "userthirtytwo"
+            },
+            "95305": {
+                "Id": 95305,
+                "Username": "userthirtythree"
+            },
+            "95310": {
+                "Id": 95310,
+                "Username": "userthirtyfour"
+            },
+            "95315": {
+                "Id": 95315,
+                "Username": "userthirtyfive"
+            },
+            "95320": {
+                "Id": 95320,
+                "Username": "userthirtysix"
+            },
+            "95325": {
+                "Id": 95325,
+                "Username": "userthirtyseven"
+            },
+            "95330": {
+                "Id": 95330,
+                "Username": "userthirtyeight"
+            },
+            "95335": {
+                "Id": 95335,
+                "Username": "userthirtynine"
+            },
+            "95340": {
+                "Id": 95340,
+                "Username": "userforty"
+            },
+            "95345": {
+                "Id": 95345,
+                "Username": "userfortyone"
+            },
+            "95350": {
+                "Id": 95350,
+                "Username": "userfortytwo"
+            },
+            "95355": {
+                "Id": 95355,
+                "Username": "userfortythree"
+            },
+            "95360": {
+                "Id": 95360,
+                "Username": "userfortyfour"
+            },
+            "95365": {
+                "Id": 95365,
+                "Username": "userfortyfive"
+            }
+        },
+        "141": {
+            "94997": {
+                "Id": 94997,
+                "Username": "yelltl"
+            },
+            "95528": {
+                "Id": 95528,
+                "Username": "usertl"
+            },
+            "95595": {
+                "Id": 95595,
+                "Username": "usertwelve"
+            },
+            "95606": {
+                "Id": 95606,
+                "Username": "userseventyeight"
+            },
+            "95611": {
+                "Id": 95611,
+                "Username": "userseventynine"
+            },
+            "95616": {
+                "Id": 95616,
+                "Username": "usereighty"
+            }
+        },
+        "127": {
+            "94997": {
+                "Id": 94997,
+                "Username": "yelltl"
+            },
+            "95528": {
+                "Id": 95528,
+                "Username": "usertl"
+            },
+            "95595": {
+                "Id": 95595,
+                "Username": "usertwelve"
+            },
+            "95606": {
+                "Id": 95606,
+                "Username": "userseventyeight"
+            },
+            "95611": {
+                "Id": 95611,
+                "Username": "userseventynine"
+            },
+            "95616": {
+                "Id": 95616,
+                "Username": "usereighty"
+            }
+        }
+    },
+    "ProjectConfig": {
+        "ProdDB_PageLimit": "50",
+        "ProductionView": "2"
+    }
+}

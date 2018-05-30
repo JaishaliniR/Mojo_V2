@@ -1,0 +1,473 @@
+{
+    "1275": "TLD_UK",
+    "UserList": {
+        "1": "admin",
+        "11995": "dineshkumark",
+        "12011": "Umamageswari",
+        "86943": "QCUser",
+        "91405": "Venkatesan",
+        "91407": "Parthibanvs",
+        "91661": "RanjithSB",
+        "91834": "Anu",
+        "91835": "archanag",
+        "91836": "saravananp",
+        "91837": "divyam",
+        "91839": "manikandana",
+        "91840": "sasikalas",
+        "91841": "kamalrajd",
+        "91843": "praveenkumars",
+        "91852": "karthikeyans",
+        "92430": "sasirekhai",
+        "92431": "mohanasundarir",
+        "92432": "aravindhank",
+        "92433": "vigneshwaranr",
+        "94791": "Saratheecs",
+        "94800": "Thejkumarb",
+        "94809": "Arunprakasha",
+        "95406": "aravindhanwfh",
+        "95407": "karthikeyanwfh",
+        "95409": "saratheewfh",
+        "95410": "vigneshwaranwfh",
+        "95411": "LakshmiNarayanawfh",
+        "95414": "anuwfh",
+        "95421": "deepikawfh",
+        "95426": "ranjithwfh",
+        "95427": "sasirekhawfh",
+        "95428": "sasikalawfh",
+        "95463": "QCTL"
+    },
+    "RegionList": {
+        "10": "UK"
+    },
+    "AttributeList": {
+        "10": [
+            5110,
+            5110,
+            5111,
+            5111,
+            5112,
+            5112,
+            5113,
+            5113,
+            5114,
+            5114,
+            5115,
+            5115,
+            5116,
+            5116,
+            5117,
+            5117,
+            5118,
+            5118,
+            5119,
+            5119,
+            5120,
+            5120,
+            5121,
+            5121,
+            5122,
+            5122,
+            6330
+        ]
+    },
+    "AttributeOrder": {
+        "10": {
+            "5110": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 5110,
+                "AttributeName": "Domain_ID",
+                "DisplayAttributeName": "Domain_ID",
+                "ControlName": "TextBox"
+            },
+            "5111": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 5111,
+                "AttributeName": "INPUT_ID",
+                "DisplayAttributeName": "INPUT_ID",
+                "ControlName": "TextBox"
+            },
+            "5112": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 5112,
+                "AttributeName": "Source_URL",
+                "DisplayAttributeName": "Source_URL",
+                "ControlName": "TextBox"
+            },
+            "5113": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 5113,
+                "AttributeName": "Company_Name",
+                "DisplayAttributeName": "Company_Name",
+                "ControlName": "TextBox"
+            },
+            "5114": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 5114,
+                "AttributeName": "Address_Line",
+                "DisplayAttributeName": "Address_Line",
+                "ControlName": "TextBox"
+            },
+            "5115": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 5115,
+                "AttributeName": "City\/County",
+                "DisplayAttributeName": "City\/County",
+                "ControlName": "TextBox"
+            },
+            "5116": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 5116,
+                "AttributeName": "Zip_Code",
+                "DisplayAttributeName": "Zip_Code",
+                "ControlName": "TextBox"
+            },
+            "5117": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 5117,
+                "AttributeName": "Address_Source",
+                "DisplayAttributeName": "Address_Source",
+                "ControlName": "TextBox"
+            },
+            "5118": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 5118,
+                "AttributeName": "PhoneNumber",
+                "DisplayAttributeName": "PhoneNumber",
+                "ControlName": "TextBox"
+            },
+            "5119": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 5119,
+                "AttributeName": "PhoneNumber_Source",
+                "DisplayAttributeName": "PhoneNumber_Source",
+                "ControlName": "TextBox"
+            },
+            "5120": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 5120,
+                "AttributeName": "OtherPhone",
+                "DisplayAttributeName": "OtherPhone",
+                "ControlName": "TextBox"
+            },
+            "5121": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 5121,
+                "AttributeName": "OtherPhone_Source",
+                "DisplayAttributeName": "OtherPhone_Source",
+                "ControlName": "TextBox"
+            },
+            "5122": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 5122,
+                "AttributeName": "Comments",
+                "DisplayAttributeName": "Comments",
+                "ControlName": "TextBox"
+            },
+            "6330": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 6330,
+                "AttributeName": "Valid Business?",
+                "DisplayAttributeName": "Valid Business?",
+                "ControlName": "RadioButton"
+            }
+        }
+    },
+    "AttributeNames": {
+        "10": {
+            "306": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 5110,
+                "AttributeId": 306,
+                "AttributeName": "Domain_ID",
+                "DisplayAttributeName": "Domain_ID",
+                "ControlName": "TextBox"
+            },
+            "424": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 5111,
+                "AttributeId": 424,
+                "AttributeName": "INPUT_ID",
+                "DisplayAttributeName": "INPUT_ID",
+                "ControlName": "TextBox"
+            },
+            "696": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 5112,
+                "AttributeId": 696,
+                "AttributeName": "Source_URL",
+                "DisplayAttributeName": "Source_URL",
+                "ControlName": "TextBox"
+            },
+            "236": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 5113,
+                "AttributeId": 236,
+                "AttributeName": "Company_Name",
+                "DisplayAttributeName": "Company_Name",
+                "ControlName": "TextBox"
+            },
+            "48": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 5114,
+                "AttributeId": 48,
+                "AttributeName": "Address_Line",
+                "DisplayAttributeName": "Address_Line",
+                "ControlName": "TextBox"
+            },
+            "836": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 5115,
+                "AttributeId": 836,
+                "AttributeName": "City\/County",
+                "DisplayAttributeName": "City\/County",
+                "ControlName": "TextBox"
+            },
+            "819": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 5116,
+                "AttributeId": 819,
+                "AttributeName": "Zip_Code",
+                "DisplayAttributeName": "Zip_Code",
+                "ControlName": "TextBox"
+            },
+            "851": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 5117,
+                "AttributeId": 851,
+                "AttributeName": "Address_Source",
+                "DisplayAttributeName": "Address_Source",
+                "ControlName": "TextBox"
+            },
+            "839": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 5118,
+                "AttributeId": 839,
+                "AttributeName": "PhoneNumber",
+                "DisplayAttributeName": "PhoneNumber",
+                "ControlName": "TextBox"
+            },
+            "860": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 5119,
+                "AttributeId": 860,
+                "AttributeName": "PhoneNumber_Source",
+                "DisplayAttributeName": "PhoneNumber_Source",
+                "ControlName": "TextBox"
+            },
+            "841": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 5120,
+                "AttributeId": 841,
+                "AttributeName": "OtherPhone",
+                "DisplayAttributeName": "OtherPhone",
+                "ControlName": "TextBox"
+            },
+            "861": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 5121,
+                "AttributeId": 861,
+                "AttributeName": "OtherPhone_Source",
+                "DisplayAttributeName": "OtherPhone_Source",
+                "ControlName": "TextBox"
+            },
+            "229": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 5122,
+                "AttributeId": 229,
+                "AttributeName": "Comments",
+                "DisplayAttributeName": "Comments",
+                "ControlName": "TextBox"
+            },
+            "782": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 6330,
+                "AttributeId": 782,
+                "AttributeName": "Valid Business?",
+                "DisplayAttributeName": "Valid Business?",
+                "ControlName": "RadioButton"
+            }
+        }
+    },
+    "ValidationRules": {
+        "5110": {
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": null
+        },
+        "5111": {
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": null
+        },
+        "5112": {
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": null
+        },
+        "5113": {
+            "IsAlphabet": 1,
+            "IsNumeric": 1,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 1,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "!@#$",
+            "Format": null
+        },
+        "5114": {
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": null
+        },
+        "5115": {
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": null
+        },
+        "5116": {
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": null
+        },
+        "5117": {
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": null
+        },
+        "5118": {
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": null
+        },
+        "5119": {
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": null
+        },
+        "5120": {
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": null
+        },
+        "5121": {
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": null
+        },
+        "5122": {
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": null
+        },
+        "6330": {
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": null
+        }
+    },
+    "Menu": {
+        "30": {
+            "Mojo Validation": {
+                "QC Sample Selection": "QCJobDump",
+                "QC Allocation": "QCJobAllocation",
+                "QC Dashboard": "QCDashBoard",
+                "Validation": "QCValidation",
+                "QC Consolidation Report": "ConsolidateReport",
+                "QC Error Report": "QCErrorReport"
+            }
+        },
+        "28": {
+            "Mojo Validation": {
+                "Validation": "QCValidation"
+            }
+        },
+        "31": {
+            "Mojo Production": {
+                "Production": "GetJob",
+                "Production View": "ViewProduction"
+            }
+        },
+        "3": {
+            "Mojo Production": {
+                "Job Dashboard": "ProductionDashboards",
+                "Production View": "ViewProduction",
+                "Comparison Report": "ComparisonReport"
+            },
+            "Manage Project": {
+                "Export Batch Output": "OutputExport",
+                "Export Production Output": "ExportProduction"
+            },
+            "Queries": {
+                "PU Queries": "TLQuery"
+            },
+            "Rebuttal": {
+                "Rebuttal": "TLRebuttal"
+            }
+        }
+    }
+}

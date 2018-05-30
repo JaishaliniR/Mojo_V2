@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/mojo_V2/src/Controller/QCSampleController.php</file>
+            <file>file:/C:/xampp/htdocs/mojo_V2/src/Model/Table/QCSampleTable.php</file>
+            <file>file:/C:/xampp/htdocs/mojo_V2/src/Controller/QCBatchMasterController.php</file>
+            <file>file:/C:/xampp/htdocs/mojo_V2/src/Model/Table/QCValidationTable.php</file>
+            <file>file:/C:/xampp/htdocs/mojo_V2/src/Model/Table/QCBatchMasterTable.php</file>
+            <file>file:/C:/xampp/htdocs/mojo_V2/src/Template/QCSample/index.ctp</file>
+            <file>file:/C:/xampp/htdocs/mojo_V2/src/Controller/QCValidationController.php</file>
+        </group>
+    </open-files>
+</project-private>

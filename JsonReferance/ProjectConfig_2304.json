@@ -1,0 +1,1166 @@
+{
+    "2304": "Mojo_QC_Single",
+    "UserList": {
+        "1": "admin",
+        "106400": "mojoqcpu",
+        "106401": "mojoqcpuone",
+        "106402": "mojotl",
+        "106403": "mojoqctl",
+        "106425": "adminmojo",
+        "106431": "mojoqcone"
+    },
+    "UserListRole": {
+        "106400_31": "mojoqcpu (Production User)",
+        "106401_31": "mojoqcpuone (Production User)",
+        "106402_3": "mojotl (Team Leader)",
+        "106403_30": "mojoqctl (QC TL)",
+        "106431_35": "mojoqcone (Core QC User)"
+    },
+    "RegionList": {
+        "12": "No Region"
+    },
+    "AttributeList": {
+        "12": [
+            7902,
+            7902,
+            7903,
+            7903,
+            7912,
+            7912,
+            7905,
+            7905,
+            7911,
+            7911,
+            7904,
+            7913,
+            7904,
+            7913,
+            7909,
+            7909,
+            7906,
+            7908,
+            7910,
+            7906,
+            7910,
+            7908,
+            7907,
+            7907
+        ]
+    },
+    "AttributeOrder": {
+        "12": {
+            "7902": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 7902,
+                "AttributeName": "DOMAIN_ID",
+                "AttributeId": 257,
+                "DisplayAttributeName": "DOMAIN ID",
+                "IsDistinct": 1,
+                "ControlName": "Label"
+            },
+            "7903": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 7903,
+                "AttributeName": "SOURCE_URL",
+                "AttributeId": 274,
+                "DisplayAttributeName": "SOURCE URL",
+                "IsDistinct": 1,
+                "ControlName": "Label"
+            },
+            "7912": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 7912,
+                "AttributeName": "ABOUT_US",
+                "AttributeId": 241,
+                "DisplayAttributeName": "About Us",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "7905": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 7905,
+                "AttributeName": "ADDRESS_BLOCK",
+                "AttributeId": 30,
+                "DisplayAttributeName": "Address Block",
+                "IsDistinct": 1,
+                "ControlName": "MultiTextBox"
+            },
+            "7911": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 7911,
+                "AttributeName": "ADDRESS_LINE",
+                "AttributeId": 248,
+                "DisplayAttributeName": "Address Line",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "7904": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 7904,
+                "AttributeName": "ALL_PHONE_NUMBER",
+                "AttributeId": 251,
+                "DisplayAttributeName": "All Phone Number",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "7913": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 7913,
+                "AttributeName": "ALL_EMAIL",
+                "AttributeId": 250,
+                "DisplayAttributeName": "All Email",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "7909": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 7909,
+                "AttributeName": "CITY",
+                "AttributeId": 52,
+                "DisplayAttributeName": "City",
+                "IsDistinct": 1,
+                "ControlName": "TextBox",
+                "Options": {
+                    "Chennai": "Chennai",
+                    "Trichy": "Trichy",
+                    "Madurai": "Madurai",
+                    "New York": "New York",
+                    "Bengaluru": "Bengaluru",
+                    "Mysuru": "Mysuru"
+                }
+            },
+            "7906": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 7906,
+                "AttributeName": "COUNTRY",
+                "AttributeId": 80,
+                "DisplayAttributeName": "Country",
+                "IsDistinct": 1,
+                "ControlName": "DropDownList",
+                "Options": {
+                    "India": "India",
+                    "USA": "USA"
+                }
+            },
+            "7908": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 7908,
+                "AttributeName": "STATE",
+                "AttributeId": 197,
+                "DisplayAttributeName": "State",
+                "IsDistinct": 1,
+                "ControlName": "TextBox",
+                "Options": {
+                    "TamilNadu": "TamilNadu",
+                    "Karnataka": "Karnataka",
+                    "NewYork": "NewYork"
+                }
+            },
+            "7910": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 7910,
+                "AttributeName": "PO_BOX",
+                "AttributeId": 265,
+                "DisplayAttributeName": "PO Box",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "7907": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 7907,
+                "AttributeName": "ZIP_CODE",
+                "AttributeId": 280,
+                "DisplayAttributeName": "Zipcode",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            }
+        }
+    },
+    "ValidationRules": {
+        "7902": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7903": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7912": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7905": {
+            "IsMandatory": 1,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7911": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7904": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7913": {
+            "IsMandatory": 1,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 1,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7909": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7906": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7908": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7910": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        },
+        "7907": {
+            "IsMandatory": 0,
+            "IsAlphabet": 0,
+            "IsNumeric": 0,
+            "IsEmail": 0,
+            "IsUrl": 0,
+            "IsSpecialCharacter": 0,
+            "IsDate": 0,
+            "Dateformat": "",
+            "IsDecimal": 0,
+            "AllowedDecimalPoint": null,
+            "IsAutoSuggesstion": 0,
+            "IsAllowNewValues": 0,
+            "AllowedCharacter": "",
+            "NotAllowedCharacter": "",
+            "Format": "",
+            "MaxLength": null,
+            "MinLength": null
+        }
+    },
+    "ModuleAttributes": {
+        "12": {
+            "1158": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 257,
+                        "ProjectAttributeMasterId": 7902,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "DOMAIN ID",
+                        "IsDistinct": 1,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "DOMAIN_ID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "2": {
+                        "AttributeMasterId": 274,
+                        "ProjectAttributeMasterId": 7903,
+                        "DispalyOrder": "2",
+                        "DisplayAttributeName": "SOURCE URL",
+                        "IsDistinct": 1,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "SOURCE_URL",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "3": {
+                        "AttributeMasterId": 241,
+                        "ProjectAttributeMasterId": 7912,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "About Us",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ABOUT_US",
+                        "MainGroupId": 80,
+                        "SubGroupId": 0
+                    },
+                    "4": {
+                        "AttributeMasterId": 30,
+                        "ProjectAttributeMasterId": 7905,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "Address Block",
+                        "IsDistinct": 1,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "ADDRESS_BLOCK",
+                        "MainGroupId": 80,
+                        "SubGroupId": 0
+                    },
+                    "5": {
+                        "AttributeMasterId": 248,
+                        "ProjectAttributeMasterId": 7911,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "Address Line",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ADDRESS_LINE",
+                        "MainGroupId": 80,
+                        "SubGroupId": 0
+                    },
+                    "6": {
+                        "AttributeMasterId": 250,
+                        "ProjectAttributeMasterId": 7913,
+                        "DispalyOrder": "6",
+                        "DisplayAttributeName": "All Email",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ALL_EMAIL",
+                        "MainGroupId": 80,
+                        "SubGroupId": 0
+                    },
+                    "7": {
+                        "AttributeMasterId": 251,
+                        "ProjectAttributeMasterId": 7904,
+                        "DispalyOrder": "7",
+                        "DisplayAttributeName": "All Phone Number",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ALL_PHONE_NUMBER",
+                        "MainGroupId": 80,
+                        "SubGroupId": 0
+                    },
+                    "8": {
+                        "AttributeMasterId": 52,
+                        "ProjectAttributeMasterId": 7909,
+                        "DispalyOrder": "8",
+                        "DisplayAttributeName": "City",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": {
+                            "Chennai": "Chennai",
+                            "Trichy": "Trichy",
+                            "Madurai": "Madurai",
+                            "New York": "New York",
+                            "Bengaluru": "Bengaluru",
+                            "Mysuru": "Mysuru"
+                        },
+                        "AttributeName": "CITY",
+                        "MainGroupId": 79,
+                        "SubGroupId": 0
+                    },
+                    "9": {
+                        "AttributeMasterId": 197,
+                        "ProjectAttributeMasterId": 7908,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "State",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": {
+                            "TamilNadu": "TamilNadu",
+                            "Karnataka": "Karnataka",
+                            "NewYork": "NewYork"
+                        },
+                        "AttributeName": "STATE",
+                        "MainGroupId": 79,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 80,
+                        "ProjectAttributeMasterId": 7906,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "Country",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": {
+                            "India": "India",
+                            "USA": "USA"
+                        },
+                        "AttributeName": "COUNTRY",
+                        "MainGroupId": 79,
+                        "SubGroupId": 0
+                    },
+                    "11": {
+                        "AttributeMasterId": 265,
+                        "ProjectAttributeMasterId": 7910,
+                        "DispalyOrder": "11",
+                        "DisplayAttributeName": "PO Box",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "PO_BOX",
+                        "MainGroupId": 80,
+                        "SubGroupId": 0
+                    },
+                    "12": {
+                        "AttributeMasterId": 280,
+                        "ProjectAttributeMasterId": 7907,
+                        "DispalyOrder": "12",
+                        "DisplayAttributeName": "Zipcode",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ZIP_CODE",
+                        "MainGroupId": 79,
+                        "SubGroupId": 0
+                    }
+                }
+            },
+            "1159": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 257,
+                        "ProjectAttributeMasterId": 7902,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "DOMAIN ID",
+                        "IsDistinct": 1,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "DOMAIN_ID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "3": {
+                        "AttributeMasterId": 241,
+                        "ProjectAttributeMasterId": 7912,
+                        "DispalyOrder": "3",
+                        "DisplayAttributeName": "About Us",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ABOUT_US",
+                        "MainGroupId": 80,
+                        "SubGroupId": 0
+                    },
+                    "4": {
+                        "AttributeMasterId": 30,
+                        "ProjectAttributeMasterId": 7905,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "Address Block",
+                        "IsDistinct": 1,
+                        "ControlName": "MultiTextBox",
+                        "Options": null,
+                        "AttributeName": "ADDRESS_BLOCK",
+                        "MainGroupId": 80,
+                        "SubGroupId": 0
+                    },
+                    "5": {
+                        "AttributeMasterId": 248,
+                        "ProjectAttributeMasterId": 7911,
+                        "DispalyOrder": "5",
+                        "DisplayAttributeName": "Address Line",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "ADDRESS_LINE",
+                        "MainGroupId": 80,
+                        "SubGroupId": 0
+                    },
+                    "8": {
+                        "AttributeMasterId": 52,
+                        "ProjectAttributeMasterId": 7909,
+                        "DispalyOrder": "8",
+                        "DisplayAttributeName": "City",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": {
+                            "Chennai": "Chennai",
+                            "Trichy": "Trichy",
+                            "Madurai": "Madurai",
+                            "New York": "New York",
+                            "Bengaluru": "Bengaluru",
+                            "Mysuru": "Mysuru"
+                        },
+                        "AttributeName": "CITY",
+                        "MainGroupId": 79,
+                        "SubGroupId": 0
+                    },
+                    "9": {
+                        "AttributeMasterId": 197,
+                        "ProjectAttributeMasterId": 7908,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "State",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": {
+                            "TamilNadu": "TamilNadu",
+                            "Karnataka": "Karnataka",
+                            "NewYork": "NewYork"
+                        },
+                        "AttributeName": "STATE",
+                        "MainGroupId": 79,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 80,
+                        "ProjectAttributeMasterId": 7906,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "Country",
+                        "IsDistinct": 1,
+                        "ControlName": "DropDownList",
+                        "Options": {
+                            "India": "India",
+                            "USA": "USA"
+                        },
+                        "AttributeName": "COUNTRY",
+                        "MainGroupId": 79,
+                        "SubGroupId": 0
+                    },
+                    "11": {
+                        "AttributeMasterId": 265,
+                        "ProjectAttributeMasterId": 7910,
+                        "DispalyOrder": "11",
+                        "DisplayAttributeName": "PO Box",
+                        "IsDistinct": 1,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "PO_BOX",
+                        "MainGroupId": 80,
+                        "SubGroupId": 0
+                    }
+                }
+            }
+        }
+    },
+    "AttributeGroupMaster": {
+        "1158": {
+            "80": "Details",
+            "79": "General"
+        },
+        "1159": {
+            "80": "Details",
+            "79": "General"
+        }
+    },
+    "AttributeGroupMasterDirect": {
+        "80": "Details",
+        "79": "General"
+    },
+    "Menu": {
+        "31": {
+            "QC Core": {
+                "Production": "GetJobCore",
+                "Production View": "ProductionViewUser",
+                "Production Rework": "Getjobrework"
+            }
+        },
+        "3": {
+            "Manage Project": {
+                "Input Import": "Importinitiates",
+                "Production Dashboard": "ProductionDashBoards",
+                "Production View": "ProductionView",
+                "Production Output": "DeliveryExport"
+            },
+            "QC Core": {
+                "TL Rebuttal Hygiene Check": "TLRebutal",
+                "TL Rebuttal User": "TLRebutalUser"
+            },
+            "PU Queries": {
+                "PU Queries": "puquery"
+            }
+        },
+        "1": {
+            "Manage Project": {
+                "Production Template": "ProductionFieldsMapping",
+                "Output Template": "OutputMapping",
+                "Possible Values Configuration": "OptionMaster",
+                "Job Definition": "UniqueIdFields",
+                "Project Configuration": "projectconfig",
+                "Module Configuration": "ModuleConfigs",
+                "Disposition definition": "DispositionRules",
+                "Attribute Dependency Definition": "OptionMasterMapping",
+                "Autosuggest Configuration": "AutoSuggestion",
+                "Manage User Group": "UserGroupMasters",
+                "Manage Users": "UserGroupMapping",
+                "Production Template Type": "ProductionTemplateMaster",
+                "Unique Id Reference": "UniqueIdReference",
+                "FTP Path": "FileStoragePath"
+            }
+        },
+        "35": {
+            "QC Validation": {
+                "Validation": "QCValidation",
+                "Validation Rework": "QCValidationRework"
+            }
+        },
+        "30": {
+            "QC Validation": {
+                "Batch Creation": "QCBatchMaster",
+                "Hygiene Check": "HygieneCheck",
+                "Stratification Master": "StratificationRule",
+                "Manage Error Category": "QCErrorCategory",
+                "Sample Selection": "QCSample"
+            }
+        },
+        "28": {
+            "QC Validation": {
+                "Validation": "QCValidation"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "Import Inprogress",
+        "2": "Ready for Core Production",
+        "3": "Import Completed",
+        "4": "Core Production Completed",
+        "5": "Core Production Inprogress",
+        "6": "Core Rework Completed",
+        "7": "Core Rework InProgress",
+        "8": "Ready for Core Rework",
+        "11": "Core Query",
+        "14": "Ready for Core QC Batch",
+        "15": "Core QC Completed",
+        "16": "Core QC InProgress",
+        "17": "Ready for Core QC",
+        "18": "Ready for QC Sampling",
+        "19": "Ready for Hygiene Check",
+        "20": "Core Rework Query",
+        "21": "Core QC Error Completed",
+        "22": "Core QC Error Inprogress",
+        "23": "Core QC Error",
+        "24": "Core QC Rework Completed",
+        "25": "Core QC Rework Inprogress",
+        "26": "Ready for Core QC Rework"
+    },
+    "ProjectGroupStatus": {
+        "Production": {
+            "2": "Ready for Core Production",
+            "4": "Core Production Completed",
+            "5": "Core Production Inprogress",
+            "6": "Core Rework Completed",
+            "7": "Core Rework InProgress",
+            "8": "Ready for Core Rework",
+            "11": "Core Query",
+            "20": "Core Rework Query"
+        },
+        "Validation": {
+            "14": "Ready for Core QC Batch",
+            "15": "Core QC Completed",
+            "16": "Core QC InProgress",
+            "17": "Ready for Core QC",
+            "18": "Ready for QC Sampling",
+            "19": "Ready for Hygiene Check",
+            "21": "Core QC Error Completed",
+            "22": "Core QC Error Inprogress",
+            "23": "Core QC Error",
+            "24": "Core QC Rework Completed",
+            "25": "Core QC Rework Inprogress",
+            "26": "Ready for Core QC Rework"
+        },
+        "Import": {
+            "1": "Import Inprogress",
+            "3": "Import Completed"
+        }
+    },
+    "Module": {
+        "142": "Manage Project",
+        "1158": "QC Core",
+        "88": "Input Import",
+        "1159": "QC Validation",
+        "128": "PU Queries"
+    },
+    "ModuleConfig": {
+        "142": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "1158": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": 1,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": 1,
+            "IsHygineCheck": 1
+        },
+        "88": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "1159": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": 2,
+            "IsHygineCheck": null
+        }
+    },
+    "ModuleUser": {
+        "142": {
+            "106402": {
+                "Id": 106402,
+                "Username": "mojotl"
+            },
+            "106425": {
+                "Id": 106425,
+                "Username": "adminmojo"
+            }
+        },
+        "1158": {
+            "106400": {
+                "Id": 106400,
+                "Username": "mojoqcpu"
+            },
+            "106401": {
+                "Id": 106401,
+                "Username": "mojoqcpuone"
+            },
+            "106402": {
+                "Id": 106402,
+                "Username": "mojotl"
+            }
+        },
+        "1159": {
+            "106403": {
+                "Id": 106403,
+                "Username": "mojoqctl"
+            },
+            "106431": {
+                "Id": 106431,
+                "Username": "mojoqcone"
+            }
+        },
+        "128": {
+            "106402": {
+                "Id": 106402,
+                "Username": "mojotl"
+            }
+        }
+    },
+    "ModuleStatusList": {
+        "1158": [
+            "Ready for Core Production",
+            "Core Production Inprogress",
+            "Core Production Completed",
+            "Core Query",
+            "Ready for Core Rework",
+            "Core Rework InProgress",
+            "Core Rework Completed",
+            "Core Rework Query"
+        ],
+        "88": [
+            "Import InProgress",
+            "Import Completed",
+            "Import InComplete",
+            "Ready For Attribute Extraction"
+        ],
+        "1159": [
+            "Ready for Core QC Batch",
+            "Ready for Hygiene Check",
+            "Ready for QC Sampling",
+            "Ready for Core QC",
+            "Core QC InProgress",
+            "Core QC Completed",
+            "Core QC Error",
+            "Core QC Error Inprogress",
+            "Core QC Error Completed",
+            "Ready for Core QC Rework",
+            "Core QC Rework Inprogress",
+            "Core QC Rework Completed"
+        ]
+    },
+    "ModuleStatus": {
+        "1158": {
+            "3": {
+                "ModuleId": 1158,
+                "ModStatus": "Ready for Core Production",
+                "ModuleStatusIdentifier": "ReadyforCoreProduction",
+                "StatusId": 3,
+                "FromStatus": "Import Completed"
+            },
+            "2": {
+                "ModuleId": 1158,
+                "ModStatus": "Core Production Inprogress",
+                "ModuleStatusIdentifier": "CoreProductionInprogress",
+                "StatusId": 2,
+                "FromStatus": "Ready for Core Production"
+            },
+            "5": {
+                "ModuleId": 1158,
+                "ModStatus": "Core Query",
+                "ModuleStatusIdentifier": "CoreQuery",
+                "StatusId": 5,
+                "FromStatus": "Core Production Inprogress"
+            },
+            "8": {
+                "ModuleId": 1158,
+                "ModStatus": "Core Rework InProgress",
+                "ModuleStatusIdentifier": "CoreReworkInProgress",
+                "StatusId": 8,
+                "FromStatus": "Ready for Core Rework"
+            },
+            "7": {
+                "ModuleId": 1158,
+                "ModStatus": "Core Rework Query",
+                "ModuleStatusIdentifier": "CoreReworkQuery",
+                "StatusId": 7,
+                "FromStatus": "Core Rework InProgress"
+            },
+            "23": {
+                "ModuleId": 1158,
+                "ModStatus": "Ready for Core Rework",
+                "ModuleStatusIdentifier": "ReadyforRework",
+                "StatusId": 23,
+                "FromStatus": "Core QC Error"
+            }
+        },
+        "1159": {
+            "4": {
+                "ModuleId": 1159,
+                "ModStatus": "Ready for Core QC Batch",
+                "ModuleStatusIdentifier": "ReadyforCoreQCBatch",
+                "StatusId": 4,
+                "FromStatus": "Core Production Completed"
+            },
+            "6": {
+                "ModuleId": 1159,
+                "ModStatus": "Ready for Core QC Rework",
+                "ModuleStatusIdentifier": "ReadyforQCRework",
+                "StatusId": 6,
+                "FromStatus": "Core Rework Completed"
+            },
+            "14": {
+                "ModuleId": 1159,
+                "ModStatus": "Ready for Hygiene Check",
+                "ModuleStatusIdentifier": "ReadyforHygieneCheck",
+                "StatusId": 14,
+                "FromStatus": "Ready for Core QC Batch"
+            },
+            "16": {
+                "ModuleId": 1159,
+                "ModStatus": "Core QC Error",
+                "ModuleStatusIdentifier": "CoreQCError",
+                "StatusId": 16,
+                "FromStatus": "Core QC InProgress"
+            },
+            "19": {
+                "ModuleId": 1159,
+                "ModStatus": "Ready for QC Sampling",
+                "ModuleStatusIdentifier": "ReadyforQCSampling",
+                "StatusId": 19,
+                "FromStatus": "Ready for Hygiene Check"
+            },
+            "18": {
+                "ModuleId": 1159,
+                "ModStatus": "Ready for Core QC",
+                "ModuleStatusIdentifier": "ReadyforQC",
+                "StatusId": 18,
+                "FromStatus": "Ready for QC Sampling"
+            },
+            "17": {
+                "ModuleId": 1159,
+                "ModStatus": "Core QC InProgress",
+                "ModuleStatusIdentifier": "CoreQCInProgress",
+                "StatusId": 17,
+                "FromStatus": "Ready for Core QC"
+            },
+            "23": {
+                "ModuleId": 1159,
+                "ModStatus": "Core QC Error Completed",
+                "ModuleStatusIdentifier": "CoreQCErrorCompleted",
+                "StatusId": 23,
+                "FromStatus": "Core QC Error"
+            },
+            "26": {
+                "ModuleId": 1159,
+                "ModStatus": "Core QC Rework Inprogress",
+                "ModuleStatusIdentifier": "CoreQCReworkInprogress",
+                "StatusId": 26,
+                "FromStatus": "Ready for Core QC Rework"
+            },
+            "25": {
+                "ModuleId": 1159,
+                "ModStatus": "Core QC Rework Completed",
+                "ModuleStatusIdentifier": "CoreQCReworkCompleted",
+                "StatusId": 25,
+                "FromStatus": "Core QC Rework Inprogress"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "3": [
+            "Ready for Core Production",
+            2
+        ],
+        "2": [
+            "Core Production Inprogress",
+            5
+        ],
+        "5": [
+            "Core Production Completed",
+            4,
+            [
+                "Core Query",
+                11
+            ]
+        ],
+        "8": [
+            "Core Rework InProgress",
+            7
+        ],
+        "7": [
+            "Core Rework Completed",
+            6,
+            [
+                "Core Rework Query",
+                20
+            ]
+        ],
+        "23": [
+            "Ready for Core Rework",
+            8,
+            [
+                "Core QC Error Completed",
+                21
+            ]
+        ],
+        "4": [
+            "Ready for Core QC Batch",
+            14
+        ],
+        "6": [
+            "Ready for Core QC Rework",
+            26
+        ],
+        "14": [
+            "Ready for Hygiene Check",
+            19
+        ],
+        "16": [
+            "Core QC Completed",
+            15,
+            [
+                "Core QC Error",
+                23
+            ]
+        ],
+        "19": [
+            "Ready for QC Sampling",
+            18
+        ],
+        "18": [
+            "Ready for Core QC",
+            17
+        ],
+        "17": [
+            "Core QC InProgress",
+            16
+        ],
+        "26": [
+            "Core QC Rework Inprogress",
+            25
+        ],
+        "25": [
+            "Core QC Rework Completed",
+            24
+        ]
+    },
+    "ProjectConfig": {
+        "DomainId": "257",
+        "DomainUrl": "274",
+        "ProdDB_PageLimit": "100",
+        "ProductionView": "3",
+        "HygineCheck": "1"
+    },
+    "UserGroups": {
+        "2": "user1",
+        "3": "user2",
+        "1002": "vendor1",
+        "1003": "vendor2",
+        "1010": "MojoUrlVone",
+        "1011": "MojoUrlVtwo",
+        "1012": "mobius134243",
+        "1013": "mobius  1",
+        "1014": "12345",
+        "1015": "mobius234",
+        "1016": "mobius-123",
+        "1017": "12345-876",
+        "1018": "dad 1212",
+        "1019": "dad 12121",
+        "1020": "dad1212",
+        "1021": "123_uhe",
+        "1022": "fdgd5345",
+        "1023": "gdfg 45345",
+        "1024": "Mobius QC Single",
+        "1025": "Mojo Single",
+        "1026": "CencageLocalGroup1",
+        "2026": "CengageNpo",
+        "2027": "MojoCengage"
+    }
+}

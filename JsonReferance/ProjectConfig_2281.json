@@ -1,0 +1,281 @@
+{
+    "2281": "Test2.0",
+    "UserList": {
+        "1": "admin",
+        "101727": "adminv2"
+    },
+    "ProjectStatus": {
+        "1": "Import Inprogress",
+        "2": "Import Completed",
+        "3": "Ready for Core Testing",
+        "4": "Core Testing Inprogress",
+        "5": "Core Testing Completed",
+        "6": "Core Query",
+        "7": "Core Query Inprogress",
+        "8": "Core Query Completed",
+        "9": "Ready for Noncore Testing",
+        "10": "Noncore Testing Inprogress",
+        "11": "Noncore Testing Completed",
+        "12": "Noncore Query",
+        "13": "Noncore Query Inprogress",
+        "14": "Noncore Query Completed",
+        "15": "Ready for HOO Testing",
+        "16": "HOO Testing Inprogress",
+        "17": "HOO Testing Completed",
+        "18": "HOO Query",
+        "19": "HOO Query Inprogress",
+        "20": "HOO Query Completed"
+    },
+    "Module": {
+        "142": "Manage Project",
+        "1149": "Core",
+        "1150": "Noncore",
+        "1151": "HOO"
+    },
+    "ModuleConfig": {
+        "142": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null
+        },
+        "1149": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null
+        },
+        "1150": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null
+        },
+        "1151": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": null
+        }
+    },
+    "ModuleStatusList": {
+        "1149": [
+            "Ready for Core Production",
+            "Core Production InProgress",
+            "Core Production Completed",
+            "Core Query",
+            "Core Query InProgress",
+            "Core Query Completed"
+        ],
+        "1150": [
+            "Ready for Noncore Production",
+            "Noncore Production InProgress",
+            "Noncore Production Completed",
+            "Noncore Query",
+            "NonCoreQueryInProgress",
+            "Noncore Query Completed",
+            "Noncore Rework",
+            "Noncore Rework InProgress"
+        ],
+        "1151": [
+            "Ready for HOO Production",
+            "URL Monitoring Query",
+            "HOO Production InProgress",
+            "HOO Production Completed",
+            "HOO Query",
+            "HOO Query InProgress",
+            "HOO Query Completed"
+        ]
+    },
+    "ModuleStatus": {
+        "1149": {
+            "2": {
+                "ModuleId": 1149,
+                "ModStatus": "Ready for Core Production",
+                "ModuleStatusIdentifier": "ReadyforCoreProduction",
+                "StatusId": 2,
+                "FromStatus": "Import Completed"
+            },
+            "3": {
+                "ModuleId": 1149,
+                "ModStatus": "Core Production InProgress",
+                "ModuleStatusIdentifier": "CoreProductionInProgress",
+                "StatusId": 3,
+                "FromStatus": "Ready for Core Testing"
+            },
+            "4": {
+                "ModuleId": 1149,
+                "ModStatus": "Core Query",
+                "ModuleStatusIdentifier": "CoreQuery",
+                "StatusId": 4,
+                "FromStatus": "Core Testing Inprogress"
+            },
+            "6": {
+                "ModuleId": 1149,
+                "ModStatus": "Core Query Completed",
+                "ModuleStatusIdentifier": "CoreQueryCompleted",
+                "StatusId": 6,
+                "FromStatus": "Core Query"
+            },
+            "7": {
+                "ModuleId": 1149,
+                "ModStatus": "Core Query InProgress",
+                "ModuleStatusIdentifier": "CoreQueryInProgress",
+                "StatusId": 7,
+                "FromStatus": "Core Query Inprogress"
+            }
+        },
+        "1150": {
+            "5": {
+                "ModuleId": 1150,
+                "ModStatus": "Ready for Noncore Production",
+                "ModuleStatusIdentifier": "ReadyforNonCoreProduction",
+                "StatusId": 5,
+                "FromStatus": "Core Testing Completed"
+            },
+            "9": {
+                "ModuleId": 1150,
+                "ModStatus": "Noncore Production InProgress",
+                "ModuleStatusIdentifier": "NonCoreProductionInProgress",
+                "StatusId": 9,
+                "FromStatus": "Ready for Noncore Testing"
+            },
+            "10": {
+                "ModuleId": 1150,
+                "ModStatus": "Noncore Query",
+                "ModuleStatusIdentifier": "NonCoreQuery",
+                "StatusId": 10,
+                "FromStatus": "Noncore Testing Inprogress"
+            },
+            "12": {
+                "ModuleId": 1150,
+                "ModStatus": "Noncore Query Completed",
+                "ModuleStatusIdentifier": "NonCoreQueryCompleted",
+                "StatusId": 12,
+                "FromStatus": "Noncore Query"
+            },
+            "13": {
+                "ModuleId": 1150,
+                "ModStatus": "NonCoreQueryInProgress",
+                "ModuleStatusIdentifier": "NonCoreQueryInProgress",
+                "StatusId": 13,
+                "FromStatus": "Noncore Query Inprogress"
+            }
+        },
+        "1151": {
+            "5": {
+                "ModuleId": 1151,
+                "ModStatus": "Ready for HOO Production",
+                "ModuleStatusIdentifier": "ReadyforHOOProduction",
+                "StatusId": 5,
+                "FromStatus": "Core Testing Completed"
+            },
+            "15": {
+                "ModuleId": 1151,
+                "ModStatus": "HOO Production InProgress",
+                "ModuleStatusIdentifier": "HOOProductionInProgress",
+                "StatusId": 15,
+                "FromStatus": "Ready for HOO Testing"
+            },
+            "16": {
+                "ModuleId": 1151,
+                "ModStatus": "HOO Query",
+                "ModuleStatusIdentifier": "HOOQuery",
+                "StatusId": 16,
+                "FromStatus": "HOO Testing Inprogress"
+            },
+            "18": {
+                "ModuleId": 1151,
+                "ModStatus": "HOO Query Completed",
+                "ModuleStatusIdentifier": "HOOQueryCompleted",
+                "StatusId": 18,
+                "FromStatus": "HOO Query"
+            },
+            "19": {
+                "ModuleId": 1151,
+                "ModStatus": "HOO Query InProgress",
+                "ModuleStatusIdentifier": "HOOQueryInProgress",
+                "StatusId": 19,
+                "FromStatus": "HOO Query Inprogress"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "2": [
+            "Ready for Core Production",
+            false
+        ],
+        "3": [
+            "Core Production InProgress",
+            false
+        ],
+        "4": [
+            "Core Production Completed",
+            false,
+            [
+                "Core Query",
+                6
+            ]
+        ],
+        "6": [
+            "Core Query Completed",
+            8
+        ],
+        "7": [
+            "Core Query InProgress",
+            7
+        ],
+        "5": [
+            "Ready for Noncore Production",
+            false,
+            [
+                "Ready for HOO Production",
+                false
+            ]
+        ],
+        "9": [
+            "Noncore Production InProgress",
+            false
+        ],
+        "10": [
+            "Noncore Production Completed",
+            false,
+            [
+                "Noncore Query",
+                12
+            ]
+        ],
+        "12": [
+            "Noncore Query Completed",
+            14
+        ],
+        "13": [
+            "NonCoreQueryInProgress",
+            false
+        ],
+        "15": [
+            "HOO Production InProgress",
+            false
+        ],
+        "16": [
+            "HOO Production Completed",
+            false,
+            [
+                "HOO Query",
+                18
+            ]
+        ],
+        "18": [
+            "HOO Query Completed",
+            20
+        ],
+        "19": [
+            "HOO Query InProgress",
+            19
+        ]
+    },
+    "ProjectConfig": {
+        "ProdDB_PageLimit": "50",
+        "ProductionView": "2"
+    }
+}

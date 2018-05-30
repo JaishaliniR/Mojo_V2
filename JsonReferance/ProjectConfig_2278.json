@@ -1,0 +1,1709 @@
+{
+    "2278": "ADMV_YP",
+    "UserList": {
+        "1": "admin",
+        "95196": "userone",
+        "95534": "usertwo",
+        "95543": "userthree",
+        "96102": "teamlead"
+    },
+    "UserListRole": {
+        "95196_37": "userone (Core Production User)",
+        "95534_32": "usertwo (Non Core Production User)",
+        "95543_33": "userthree (HOO Production User)",
+        "96102_3": "teamlead (Team Leader)"
+    },
+    "RegionList": {
+        "6": "US"
+    },
+    "AttributeList": {
+        "6": [
+            6222,
+            6257,
+            6273,
+            6274,
+            6258,
+            6223,
+            6224,
+            6259,
+            6276,
+            6260,
+            6275,
+            6225,
+            6261,
+            6226,
+            6277,
+            6227,
+            6262,
+            6263,
+            6228,
+            6264,
+            6229,
+            6230,
+            6265,
+            6266,
+            6231,
+            6232,
+            6267,
+            6268,
+            6233,
+            6234,
+            6269,
+            6270,
+            6235,
+            6236,
+            6271,
+            6272,
+            6237,
+            6238,
+            6239,
+            6240,
+            6241,
+            6242,
+            6243,
+            6244,
+            6245,
+            6246,
+            6247,
+            6248,
+            6250,
+            6251,
+            6252,
+            6253,
+            6254,
+            6255,
+            6256,
+            6309,
+            6308
+        ]
+    },
+    "AttributeOrder": {
+        "6": {
+            "6222": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 6222,
+                "AttributeName": "YPID",
+                "AttributeId": 1383,
+                "DisplayAttributeName": "YPID",
+                "IsDistinct": 1,
+                "ControlName": "Label"
+            },
+            "6257": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 6257,
+                "AttributeName": "Payment_Methods",
+                "AttributeId": 1413,
+                "DisplayAttributeName": "Payment_Methods",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6273": {
+                "DispalyOrder": "1",
+                "ProjectAttributeId": 6273,
+                "AttributeName": "Hours of Operation",
+                "AttributeId": 1427,
+                "DisplayAttributeName": "Hours of Operation",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6274": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 6274,
+                "AttributeName": "Mob_HOO",
+                "AttributeId": 1428,
+                "DisplayAttributeName": "Mob_HOO",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6258": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 6258,
+                "AttributeName": "Mob_Payment_Methods",
+                "AttributeId": 1414,
+                "DisplayAttributeName": "Mob_Payment_Methods",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6223": {
+                "DispalyOrder": "2",
+                "ProjectAttributeId": 6223,
+                "AttributeName": "Tool URL",
+                "AttributeId": 1384,
+                "DisplayAttributeName": "Tool URL",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "6224": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 6224,
+                "AttributeName": "LISTING_NAME",
+                "AttributeId": 1385,
+                "DisplayAttributeName": "LISTING_NAME",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "6259": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 6259,
+                "AttributeName": "Source_PaymentMethods",
+                "AttributeId": 1415,
+                "DisplayAttributeName": "Source",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6276": {
+                "DispalyOrder": "3",
+                "ProjectAttributeId": 6276,
+                "AttributeName": "Remarks_HOO",
+                "AttributeId": 1430,
+                "DisplayAttributeName": "Remarks",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6260": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 6260,
+                "AttributeName": "Remarks_PaymentMethods",
+                "AttributeId": 1416,
+                "DisplayAttributeName": "Remarks",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6275": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 6275,
+                "AttributeName": "Source_HOO",
+                "AttributeId": 1429,
+                "DisplayAttributeName": "Source",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6225": {
+                "DispalyOrder": "4",
+                "ProjectAttributeId": 6225,
+                "AttributeName": "URL",
+                "AttributeId": 225,
+                "DisplayAttributeName": "URL",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "6261": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 6261,
+                "AttributeName": "Email",
+                "AttributeId": 90,
+                "DisplayAttributeName": "Email",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6226": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 6226,
+                "AttributeName": "IsBusiness",
+                "AttributeId": 1386,
+                "DisplayAttributeName": "Is the Website for the business?",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList",
+                "Options": {
+                    "Bangalore": "Bangalore",
+                    "Mumbai": "Mumbai",
+                    "Pondicherry": "Pondicherry",
+                    "India": "India",
+                    "yes": "yes",
+                    "no": "no",
+                    "chennai": "chennai"
+                }
+            },
+            "6277": {
+                "DispalyOrder": "5",
+                "ProjectAttributeId": 6277,
+                "AttributeName": "Additional_HOO",
+                "AttributeId": 1431,
+                "DisplayAttributeName": "Additional",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6227": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 6227,
+                "AttributeName": "Reason",
+                "AttributeId": 267,
+                "DisplayAttributeName": "Reason",
+                "IsDistinct": 1,
+                "ControlName": "TextBox"
+            },
+            "6262": {
+                "DispalyOrder": "6",
+                "ProjectAttributeId": 6262,
+                "AttributeName": "Mob_Email",
+                "AttributeId": 1417,
+                "DisplayAttributeName": "Mob_Email",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6263": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 6263,
+                "AttributeName": "Source_Email",
+                "AttributeId": 194,
+                "DisplayAttributeName": "Source",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6228": {
+                "DispalyOrder": "7",
+                "ProjectAttributeId": 6228,
+                "AttributeName": "NOTES",
+                "AttributeId": 263,
+                "DisplayAttributeName": "NOTES",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6264": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 6264,
+                "AttributeName": "Remarks_Email",
+                "AttributeId": 1418,
+                "DisplayAttributeName": "Remarks",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6229": {
+                "DispalyOrder": "8",
+                "ProjectAttributeId": 6229,
+                "AttributeName": "IsClosed",
+                "AttributeId": 1387,
+                "DisplayAttributeName": "Is it Closed?",
+                "IsDistinct": 0,
+                "ControlName": "RadioButton",
+                "Options": {
+                    "Bangalore": "Bangalore",
+                    "Mumbai": "Mumbai",
+                    "Pondicherry": "Pondicherry",
+                    "India": "India",
+                    "chennai": "chennai"
+                }
+            },
+            "6230": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 6230,
+                "AttributeName": "Input Name",
+                "AttributeId": 1388,
+                "DisplayAttributeName": "Input Name",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "6265": {
+                "DispalyOrder": "9",
+                "ProjectAttributeId": 6265,
+                "AttributeName": "ServicesProducts",
+                "AttributeId": 1419,
+                "DisplayAttributeName": "Services & Products",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6266": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 6266,
+                "AttributeName": "Mob_ServicesProducts",
+                "AttributeId": 1420,
+                "DisplayAttributeName": "Mob_Services & Products",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6231": {
+                "DispalyOrder": "10",
+                "ProjectAttributeId": 6231,
+                "AttributeName": "Mob_Name",
+                "AttributeId": 1389,
+                "DisplayAttributeName": "Mob_Name",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6232": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 6232,
+                "AttributeName": "Source_Name",
+                "AttributeId": 1390,
+                "DisplayAttributeName": "Source",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6267": {
+                "DispalyOrder": "11",
+                "ProjectAttributeId": 6267,
+                "AttributeName": "Source_ServicesProducts",
+                "AttributeId": 1421,
+                "DisplayAttributeName": "Source",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6268": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 6268,
+                "AttributeName": "Remarks_ServicesProducts",
+                "AttributeId": 1422,
+                "DisplayAttributeName": "Remarks",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6233": {
+                "DispalyOrder": "12",
+                "ProjectAttributeId": 6233,
+                "AttributeName": "Remarks_Name",
+                "AttributeId": 1391,
+                "DisplayAttributeName": "Remarks",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList",
+                "Options": {
+                    "Added": "Added",
+                    "Modified": "Modified",
+                    "Removed": "Removed",
+                    "chennai": "chennai",
+                    "Bangalore": "Bangalore",
+                    "Mumbai": "Mumbai",
+                    "Pondicherry": "Pondicherry",
+                    "India": "India"
+                },
+                "Mapping": {
+                    "6255": {
+                        "Added": [
+                            {
+                                "50": 50
+                            },
+                            {
+                                "51": 51
+                            }
+                        ],
+                        "Modified": [
+                            {
+                                "52": 52
+                            },
+                            {
+                                "53": 53
+                            },
+                            {
+                                "54": 54
+                            }
+                        ],
+                        "Removed": [
+                            {
+                                "55": 55
+                            },
+                            {
+                                "56": 56
+                            },
+                            {
+                                "57": 57
+                            },
+                            {
+                                "58": 58
+                            }
+                        ]
+                    }
+                }
+            },
+            "6234": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 6234,
+                "AttributeName": "Input Address",
+                "AttributeId": 1392,
+                "DisplayAttributeName": "Input Address",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "6269": {
+                "DispalyOrder": "13",
+                "ProjectAttributeId": 6269,
+                "AttributeName": "Business Since",
+                "AttributeId": 1423,
+                "DisplayAttributeName": "Business Since",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6270": {
+                "DispalyOrder": "14",
+                "ProjectAttributeId": 6270,
+                "AttributeName": "Since",
+                "AttributeId": 1424,
+                "DisplayAttributeName": "Since",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6235": {
+                "DispalyOrder": "14",
+                "ProjectAttributeId": 6235,
+                "AttributeName": "Mob_Address",
+                "AttributeId": 1393,
+                "DisplayAttributeName": "Mob_Address",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6236": {
+                "DispalyOrder": "15",
+                "ProjectAttributeId": 6236,
+                "AttributeName": "Source_Address",
+                "AttributeId": 1394,
+                "DisplayAttributeName": "Source",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6271": {
+                "DispalyOrder": "15",
+                "ProjectAttributeId": 6271,
+                "AttributeName": "Source_BusinessSince",
+                "AttributeId": 1425,
+                "DisplayAttributeName": "Source",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6272": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 6272,
+                "AttributeName": "Remarks_BusinessSince",
+                "AttributeId": 1426,
+                "DisplayAttributeName": "Remarks",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6237": {
+                "DispalyOrder": "16",
+                "ProjectAttributeId": 6237,
+                "AttributeName": "Remarks_Address",
+                "AttributeId": 1395,
+                "DisplayAttributeName": "Remarks",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "6238": {
+                "DispalyOrder": "17",
+                "ProjectAttributeId": 6238,
+                "AttributeName": "Input Phone",
+                "AttributeId": 1396,
+                "DisplayAttributeName": "Input Phone",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "6239": {
+                "DispalyOrder": "18",
+                "ProjectAttributeId": 6239,
+                "AttributeName": "Mob_Primary Phone Number",
+                "AttributeId": 1397,
+                "DisplayAttributeName": "Mob_Primary Phone Number",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6240": {
+                "DispalyOrder": "19",
+                "ProjectAttributeId": 6240,
+                "AttributeName": "Source_Phone",
+                "AttributeId": 195,
+                "DisplayAttributeName": "Source",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6241": {
+                "DispalyOrder": "20",
+                "ProjectAttributeId": 6241,
+                "AttributeName": "Remarks_Phone",
+                "AttributeId": 1398,
+                "DisplayAttributeName": "Remarks",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList",
+                "Options": {
+                    "Phone 1": "Phone 1",
+                    "Phone 2": "Phone 2",
+                    "chennai": "chennai",
+                    "Bangalore": "Bangalore",
+                    "Mumbai": "Mumbai",
+                    "Pondicherry": "Pondicherry",
+                    "India": "India"
+                },
+                "Mapping": {
+                    "6247": {
+                        "Phone 1": [
+                            {
+                                "64": 64
+                            },
+                            {
+                                "65": 65
+                            },
+                            {
+                                "64": 64
+                            },
+                            {
+                                "65": 65
+                            }
+                        ],
+                        "Phone 2": [
+                            {
+                                "66": 66
+                            },
+                            {
+                                "67": 67
+                            },
+                            {
+                                "68": 68
+                            },
+                            {
+                                "66": 66
+                            },
+                            {
+                                "67": 67
+                            },
+                            {
+                                "68": 68
+                            }
+                        ],
+                        "chennai": [
+                            {
+                                "65": 65
+                            }
+                        ],
+                        "Bangalore": [
+                            {
+                                "67": 67
+                            },
+                            {
+                                "68": 68
+                            }
+                        ],
+                        "Mumbai": [
+                            {
+                                "68": 68
+                            }
+                        ],
+                        "Pondicherry": [
+                            {
+                                "64": 64
+                            }
+                        ],
+                        "India": [
+                            {
+                                "64": 64
+                            },
+                            {
+                                "65": 65
+                            }
+                        ]
+                    }
+                }
+            },
+            "6242": {
+                "DispalyOrder": "21",
+                "ProjectAttributeId": 6242,
+                "AttributeName": "Input_Phone numbers",
+                "AttributeId": 1399,
+                "DisplayAttributeName": "Input_Phone numbers",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "6243": {
+                "DispalyOrder": "22",
+                "ProjectAttributeId": 6243,
+                "AttributeName": "Input_Phone Numbers Type",
+                "AttributeId": 1400,
+                "DisplayAttributeName": "Input_Phone Numbers Type",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "6244": {
+                "DispalyOrder": "23",
+                "ProjectAttributeId": 6244,
+                "AttributeName": "Mob_Phone numbers",
+                "AttributeId": 1401,
+                "DisplayAttributeName": "Mob_Phone numbers",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6245": {
+                "DispalyOrder": "24",
+                "ProjectAttributeId": 6245,
+                "AttributeName": "Mob_Phone Numbers Type",
+                "AttributeId": 1402,
+                "DisplayAttributeName": "Mob_Phone Numbers Type",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6246": {
+                "DispalyOrder": "25",
+                "ProjectAttributeId": 6246,
+                "AttributeName": "Source_addnlphone",
+                "AttributeId": 1403,
+                "DisplayAttributeName": "Source",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6247": {
+                "DispalyOrder": "26",
+                "ProjectAttributeId": 6247,
+                "AttributeName": "Remarks_addnlphone",
+                "AttributeId": 1404,
+                "DisplayAttributeName": "Remarks",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList",
+                "Options": {
+                    "Phone 1 Add 1": "Phone 1 Add 1",
+                    "Phone 1 Add 2": "Phone 1 Add 2",
+                    "Phone 2 Add 1": "Phone 2 Add 1",
+                    "Phone 2 Add 2": "Phone 2 Add 2",
+                    "Phone 2 Add 3": "Phone 2 Add 3"
+                }
+            },
+            "6248": {
+                "DispalyOrder": "27",
+                "ProjectAttributeId": 6248,
+                "AttributeName": "Input Website",
+                "AttributeId": 1405,
+                "DisplayAttributeName": "Input Website",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "6250": {
+                "DispalyOrder": "29",
+                "ProjectAttributeId": 6250,
+                "AttributeName": "Source_Websites",
+                "AttributeId": 1407,
+                "DisplayAttributeName": "Source",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6251": {
+                "DispalyOrder": "30",
+                "ProjectAttributeId": 6251,
+                "AttributeName": "Remarks_Websites",
+                "AttributeId": 1408,
+                "DisplayAttributeName": "Remarks",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList"
+            },
+            "6252": {
+                "DispalyOrder": "31",
+                "ProjectAttributeId": 6252,
+                "AttributeName": "Input_Categories_Primary",
+                "AttributeId": 1409,
+                "DisplayAttributeName": "Input_Categories_Primary",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "6253": {
+                "DispalyOrder": "32",
+                "ProjectAttributeId": 6253,
+                "AttributeName": "Mob_Categories_Primary",
+                "AttributeId": 1410,
+                "DisplayAttributeName": "Mob_Categories_Primary",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6254": {
+                "DispalyOrder": "33",
+                "ProjectAttributeId": 6254,
+                "AttributeName": "Source_Categories",
+                "AttributeId": 1411,
+                "DisplayAttributeName": "Source",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6255": {
+                "DispalyOrder": "34",
+                "ProjectAttributeId": 6255,
+                "AttributeName": "Remarks_Categories",
+                "AttributeId": 1412,
+                "DisplayAttributeName": "Remarks",
+                "IsDistinct": 0,
+                "ControlName": "DropDownList",
+                "Options": {
+                    "Added 1": "Added 1",
+                    "Added 2": "Added 2",
+                    "Modified 1": "Modified 1",
+                    "Modified 2": "Modified 2",
+                    "Modified 3": "Modified 3",
+                    "Removed 1": "Removed 1",
+                    "Removed 2": "Removed 2",
+                    "Removed 3": "Removed 3",
+                    "Removed 4": "Removed 4"
+                }
+            },
+            "6256": {
+                "DispalyOrder": "35",
+                "ProjectAttributeId": 6256,
+                "AttributeName": "Comments",
+                "AttributeId": 61,
+                "DisplayAttributeName": "Comments",
+                "IsDistinct": 0,
+                "ControlName": "TextBox"
+            },
+            "6309": {
+                "DispalyOrder": "57",
+                "ProjectAttributeId": 6309,
+                "AttributeName": "Batch_ID",
+                "AttributeId": 1445,
+                "DisplayAttributeName": "Batch ID",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            },
+            "6308": {
+                "DispalyOrder": "58",
+                "ProjectAttributeId": 6308,
+                "AttributeName": "Auto_ID",
+                "AttributeId": 1444,
+                "DisplayAttributeName": "Auto ID",
+                "IsDistinct": 0,
+                "ControlName": "Label"
+            }
+        }
+    },
+    "ModuleAttributes": {
+        "6": {
+            "1150": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 1383,
+                        "ProjectAttributeMasterId": 6222,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "YPID",
+                        "IsDistinct": 1,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "YPID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "4": {
+                        "AttributeMasterId": 225,
+                        "ProjectAttributeMasterId": 6225,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "URL",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "URL",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "readonly": {
+                    "9": {
+                        "AttributeMasterId": 1388,
+                        "ProjectAttributeMasterId": 6230,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "Input Name",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Input Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 1389,
+                        "ProjectAttributeMasterId": 6231,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "Mob_Name",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Mob_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "13": {
+                        "AttributeMasterId": 1392,
+                        "ProjectAttributeMasterId": 6234,
+                        "DispalyOrder": "13",
+                        "DisplayAttributeName": "Input Address",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Input Address",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "14": {
+                        "AttributeMasterId": 1393,
+                        "ProjectAttributeMasterId": 6235,
+                        "DispalyOrder": "14",
+                        "DisplayAttributeName": "Mob_Address",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Mob_Address",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "17": {
+                        "AttributeMasterId": 1396,
+                        "ProjectAttributeMasterId": 6238,
+                        "DispalyOrder": "17",
+                        "DisplayAttributeName": "Input Phone",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Input Phone",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "18": {
+                        "AttributeMasterId": 1397,
+                        "ProjectAttributeMasterId": 6239,
+                        "DispalyOrder": "18",
+                        "DisplayAttributeName": "Mob_Primary Phone Number",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Mob_Primary Phone Number",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "21": {
+                        "AttributeMasterId": 1399,
+                        "ProjectAttributeMasterId": 6242,
+                        "DispalyOrder": "21",
+                        "DisplayAttributeName": "Input_Phone numbers",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Input_Phone numbers",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "22": {
+                        "AttributeMasterId": 1400,
+                        "ProjectAttributeMasterId": 6243,
+                        "DispalyOrder": "22",
+                        "DisplayAttributeName": "Input_Phone Numbers Type",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Input_Phone Numbers Type",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                }
+            },
+            "1149": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 1383,
+                        "ProjectAttributeMasterId": 6222,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "YPID",
+                        "IsDistinct": 1,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "YPID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "4": {
+                        "AttributeMasterId": 225,
+                        "ProjectAttributeMasterId": 6225,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "URL",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "URL",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "9": {
+                        "AttributeMasterId": 1388,
+                        "ProjectAttributeMasterId": 6230,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "Input Name",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Input Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 1389,
+                        "ProjectAttributeMasterId": 6231,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "Mob_Name",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Mob_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "13": {
+                        "AttributeMasterId": 1392,
+                        "ProjectAttributeMasterId": 6234,
+                        "DispalyOrder": "13",
+                        "DisplayAttributeName": "Input Address",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Input Address",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "14": {
+                        "AttributeMasterId": 1393,
+                        "ProjectAttributeMasterId": 6235,
+                        "DispalyOrder": "14",
+                        "DisplayAttributeName": "Mob_Address",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Mob_Address",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                }
+            },
+            "1151": {
+                "static": {
+                    "1": {
+                        "AttributeMasterId": 1383,
+                        "ProjectAttributeMasterId": 6222,
+                        "DispalyOrder": "1",
+                        "DisplayAttributeName": "YPID",
+                        "IsDistinct": 1,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "YPID",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "4": {
+                        "AttributeMasterId": 225,
+                        "ProjectAttributeMasterId": 6225,
+                        "DispalyOrder": "4",
+                        "DisplayAttributeName": "URL",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "URL",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "readonly": {
+                    "9": {
+                        "AttributeMasterId": 1388,
+                        "ProjectAttributeMasterId": 6230,
+                        "DispalyOrder": "9",
+                        "DisplayAttributeName": "Input Name",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Input Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "10": {
+                        "AttributeMasterId": 1389,
+                        "ProjectAttributeMasterId": 6231,
+                        "DispalyOrder": "10",
+                        "DisplayAttributeName": "Mob_Name",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Mob_Name",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "13": {
+                        "AttributeMasterId": 1392,
+                        "ProjectAttributeMasterId": 6234,
+                        "DispalyOrder": "13",
+                        "DisplayAttributeName": "Input Address",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Input Address",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "14": {
+                        "AttributeMasterId": 1393,
+                        "ProjectAttributeMasterId": 6235,
+                        "DispalyOrder": "14",
+                        "DisplayAttributeName": "Mob_Address",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Mob_Address",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "17": {
+                        "AttributeMasterId": 1396,
+                        "ProjectAttributeMasterId": 6238,
+                        "DispalyOrder": "17",
+                        "DisplayAttributeName": "Input Phone",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Input Phone",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "18": {
+                        "AttributeMasterId": 1397,
+                        "ProjectAttributeMasterId": 6239,
+                        "DispalyOrder": "18",
+                        "DisplayAttributeName": "Mob_Primary Phone Number",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Mob_Primary Phone Number",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "21": {
+                        "AttributeMasterId": 1399,
+                        "ProjectAttributeMasterId": 6242,
+                        "DispalyOrder": "21",
+                        "DisplayAttributeName": "Input_Phone numbers",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Input_Phone numbers",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "22": {
+                        "AttributeMasterId": 1400,
+                        "ProjectAttributeMasterId": 6243,
+                        "DispalyOrder": "22",
+                        "DisplayAttributeName": "Input_Phone Numbers Type",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Input_Phone Numbers Type",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                },
+                "production": {
+                    "23": {
+                        "AttributeMasterId": 1401,
+                        "ProjectAttributeMasterId": 6244,
+                        "DispalyOrder": "23",
+                        "DisplayAttributeName": "Mob_Phone numbers",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Mob_Phone numbers",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "24": {
+                        "AttributeMasterId": 1402,
+                        "ProjectAttributeMasterId": 6245,
+                        "DispalyOrder": "24",
+                        "DisplayAttributeName": "Mob_Phone Numbers Type",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Mob_Phone Numbers Type",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "27": {
+                        "AttributeMasterId": 1405,
+                        "ProjectAttributeMasterId": 6248,
+                        "DispalyOrder": "27",
+                        "DisplayAttributeName": "Input Website",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Input Website",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "31": {
+                        "AttributeMasterId": 1409,
+                        "ProjectAttributeMasterId": 6252,
+                        "DispalyOrder": "31",
+                        "DisplayAttributeName": "Input_Categories_Primary",
+                        "IsDistinct": 0,
+                        "ControlName": "Label",
+                        "Options": null,
+                        "AttributeName": "Input_Categories_Primary",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    },
+                    "32": {
+                        "AttributeMasterId": 1410,
+                        "ProjectAttributeMasterId": 6253,
+                        "DispalyOrder": "32",
+                        "DisplayAttributeName": "Mob_Categories_Primary",
+                        "IsDistinct": 0,
+                        "ControlName": "TextBox",
+                        "Options": null,
+                        "AttributeName": "Mob_Categories_Primary",
+                        "MainGroupId": 41,
+                        "SubGroupId": 0
+                    }
+                }
+            }
+        }
+    },
+    "AttributeGroupMaster": {
+        "1150": {
+            "41": "ProductAttributes"
+        },
+        "1149": {
+            "41": "ProductAttributes"
+        },
+        "1151": {
+            "41": "ProductAttributes"
+        }
+    },
+    "AttributeGroupMasterDirect": {
+        "41": "ProductAttributes"
+    },
+    "Menu": {
+        "1": {
+            "Manage Project": {
+                "Production Template": "ProductionFieldsMapping",
+                "Output Template": "OutputMapping",
+                "Export Output": "OutputExport",
+                "Possible Values Configuration": "OptionMaster",
+                "Validation Rule Engine": "validationrules",
+                "Job Definition": "UniqueIdFields",
+                "Project Configuration": "projectconfig",
+                "Module Configuration": "ModuleConfigs",
+                "Disposition definition": "DispositionRules",
+                "Attribute Dependency Definition": "OptionMasterMapping",
+                "Input Import": "Importinitiates",
+                "Production Dashboard": "ProductionDashBoards",
+                "Production View": "ProductionView",
+                "Autosuggest Configuration": "AutoSuggestion",
+                "Manage User Group": "UserGroupMasters",
+                "Manage Users": "UserGroupMapping"
+            }
+        },
+        "19": {
+            "Manage Project": {
+                "Production Template": "ProductionFieldsMapping",
+                "Output Template": "OutputMapping",
+                "Export Output": "OutputExport",
+                "Possible Values Configuration": "OptionMaster",
+                "Production Template Mapping": "ProductionFieldsMapping",
+                "Validation Rule Engine": "validationrules",
+                "Flag Master": "FlagMasters",
+                "Attribute Flag Mapping": "FlagAttributesMapping",
+                "Job Definition": "UniqueIdFields",
+                "Project Configuration": "projectconfig",
+                "Production Layout Mapping": "ProductionLayoutMapping",
+                "Module Configuration": "ModuleConfigs",
+                "Disposition definition": "DispositionRules",
+                "Attribute Dependency Definition": "OptionMasterMapping",
+                "Input Import": "Importinitiates",
+                "Production Dashboard": "ProductionDashBoards",
+                "Production View": "ProductionView",
+                "Autosuggest Configuration": "AutoSuggestion"
+            }
+        },
+        "37": {
+            "Core": {
+                "Production": "Getjobcore"
+            }
+        },
+        "32": {
+            "Noncore": {
+                "Production": "Getjobnoncore"
+            }
+        },
+        "33": {
+            "HOO": {
+                "Production": "HOOGetJob"
+            }
+        },
+        "3": {
+            "Manage Project": {
+                "Export Production Output": "ExportProduction",
+                "Input Import": "Importinitiates",
+                "Production Dashboard": "ProductionDashBoards",
+                "Production View": "ProductionView",
+                "Manage Users": "UserGroupMapping"
+            },
+            "PU Queries": {
+                "PU Queries": "puquery"
+            },
+            "Queries": {
+                "PU Queries": "puquery",
+                "Query Response": "TLQuery"
+            }
+        }
+    },
+    "ProjectStatus": {
+        "1": "HOO Rework InProgress",
+        "2": "HOO Rework",
+        "3": "HOO Query InProgress",
+        "4": "HOO Query",
+        "5": "HOO Production Completed",
+        "6": "HOO Production InProgress",
+        "7": "Ready for HOO Production",
+        "8": "Noncore Rework InProgress",
+        "9": "Noncore Rework",
+        "10": "Noncore Query InProgress",
+        "11": "Noncore Query",
+        "12": "Noncore Production Completed",
+        "13": "Noncore Production InProgress",
+        "14": "Ready for Noncore Production",
+        "15": "Core Rework InProgress",
+        "16": "Core Rework",
+        "17": "Core Query InProgress",
+        "18": "Core Query",
+        "19": "Core Production Completed",
+        "20": "Core Production InProgress",
+        "21": "Ready for Core Production",
+        "22": "Core Query Completed",
+        "23": "HOO Query Completed",
+        "24": "Noncore Query Completed",
+        "25": "Import Completed",
+        "26": "Import InProgress"
+    },
+    "ProjectGroupStatus": {
+        "Core Production": {
+            "15": "Core Rework InProgress",
+            "16": "Core Rework",
+            "17": "Core Query InProgress",
+            "18": "Core Query",
+            "19": "Core Production Completed",
+            "20": "Core Production InProgress",
+            "21": "Ready for Core Production",
+            "22": "Core Query Completed"
+        },
+        "HOO Production": {
+            "1": "HOO Rework InProgress",
+            "2": "HOO Rework",
+            "3": "HOO Query InProgress",
+            "4": "HOO Query",
+            "5": "HOO Production Completed",
+            "6": "HOO Production InProgress",
+            "7": "Ready for HOO Production",
+            "23": "HOO Query Completed"
+        },
+        "Noncore Production": {
+            "8": "Noncore Rework InProgress",
+            "9": "Noncore Rework",
+            "10": "Noncore Query InProgress",
+            "11": "Noncore Query",
+            "12": "Noncore Production Completed",
+            "13": "Noncore Production InProgress",
+            "14": "Ready for Noncore Production",
+            "24": "Noncore Query Completed"
+        },
+        "Import": {
+            "25": "Import Completed",
+            "26": "Import InProgress"
+        }
+    },
+    "Module": {
+        "1150": "Noncore",
+        "142": "Manage Project",
+        "1149": "Core",
+        "1151": "HOO",
+        "128": "PU Queries",
+        "141": "Queries"
+    },
+    "ModuleStatusList": {
+        "1150": [
+            "Ready for Noncore Production",
+            "Noncore Production InProgress",
+            "Noncore Production Completed",
+            "Noncore Query",
+            "Noncore Query InProgress",
+            "Noncore Query Completed",
+            "Noncore Rework",
+            "Noncore Rework InProgress"
+        ],
+        "1149": [
+            "Ready for Core Production",
+            "Core Production InProgress",
+            "Core Production Completed",
+            "Core Query",
+            "Core Query InProgress",
+            "Core Query Completed",
+            "CoreRework",
+            "Core Rework InProgress"
+        ],
+        "1151": [
+            "Ready for HOO Production",
+            "HOO Production InProgress",
+            "HOO Production Completed",
+            "HOO Query",
+            "HOO Query InProgress",
+            "HOO Query Completed",
+            "HOO Rework",
+            "HOO Rework InProgress"
+        ]
+    },
+    "ModuleConfig": {
+        "1150": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": null,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "142": {
+            "IsInputMandatory": 2,
+            "IsHistoryTrack": 2,
+            "IsUrlMonitoring": 0,
+            "IsAllowedToDisplay": 0,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "1149": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": 0,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        },
+        "1151": {
+            "IsInputMandatory": 1,
+            "IsHistoryTrack": 1,
+            "IsUrlMonitoring": 0,
+            "IsAllowedToDisplay": 1,
+            "IsModuleGroup": null,
+            "IsHygineCheck": null
+        }
+    },
+    "ModuleStatus": {
+        "1150": {
+            "19": {
+                "ModuleId": 1150,
+                "ModStatus": "Ready for Noncore Production",
+                "ModuleStatusIdentifier": "ReadyforNonCoreProduction",
+                "StatusId": 19,
+                "FromStatus": "Core Production Completed"
+            },
+            "14": {
+                "ModuleId": 1150,
+                "ModStatus": "Noncore Production InProgress",
+                "ModuleStatusIdentifier": "NonCoreProductionInProgress",
+                "StatusId": 14,
+                "FromStatus": "Ready for Noncore Production"
+            },
+            "13": {
+                "ModuleId": 1150,
+                "ModStatus": "Noncore Query",
+                "ModuleStatusIdentifier": "NonCoreQuery",
+                "StatusId": 13,
+                "FromStatus": "Noncore Production InProgress"
+            },
+            "11": {
+                "ModuleId": 1150,
+                "ModStatus": "Noncore Query Completed",
+                "ModuleStatusIdentifier": "NonCoreQueryCompleted",
+                "StatusId": 11,
+                "FromStatus": "Noncore Query"
+            },
+            "10": {
+                "ModuleId": 1150,
+                "ModStatus": "Noncore Query InProgress",
+                "ModuleStatusIdentifier": "NonCoreQueryInProgress",
+                "StatusId": 10,
+                "FromStatus": "Noncore Query InProgress"
+            },
+            "9": {
+                "ModuleId": 1150,
+                "ModStatus": "Noncore Rework",
+                "ModuleStatusIdentifier": "NonCoreRework",
+                "StatusId": 9,
+                "FromStatus": "Noncore Rework"
+            },
+            "8": {
+                "ModuleId": 1150,
+                "ModStatus": "Noncore Rework InProgress",
+                "ModuleStatusIdentifier": "NonCoreReworkInProgress",
+                "StatusId": 8,
+                "FromStatus": "Noncore Rework InProgress"
+            }
+        },
+        "1149": {
+            "21": {
+                "ModuleId": 1149,
+                "ModStatus": "Core Production InProgress",
+                "ModuleStatusIdentifier": "CoreProductionInProgress",
+                "StatusId": 21,
+                "FromStatus": "Ready for Core Production"
+            },
+            "20": {
+                "ModuleId": 1149,
+                "ModStatus": "Core Query",
+                "ModuleStatusIdentifier": "CoreQuery",
+                "StatusId": 20,
+                "FromStatus": "Core Production InProgress"
+            },
+            "18": {
+                "ModuleId": 1149,
+                "ModStatus": "Core Query Completed",
+                "ModuleStatusIdentifier": "CoreQueryCompleted",
+                "StatusId": 18,
+                "FromStatus": "Core Query"
+            },
+            "17": {
+                "ModuleId": 1149,
+                "ModStatus": "Core Query InProgress",
+                "ModuleStatusIdentifier": "CoreQueryInProgress",
+                "StatusId": 17,
+                "FromStatus": "Core Query InProgress"
+            },
+            "16": {
+                "ModuleId": 1149,
+                "ModStatus": "CoreRework",
+                "ModuleStatusIdentifier": "CoreRework",
+                "StatusId": 16,
+                "FromStatus": "Core Rework"
+            },
+            "15": {
+                "ModuleId": 1149,
+                "ModStatus": "Core Rework InProgress",
+                "ModuleStatusIdentifier": "CoreReworkInProgress",
+                "StatusId": 15,
+                "FromStatus": "Core Rework InProgress"
+            },
+            "25": {
+                "ModuleId": 1149,
+                "ModStatus": "Ready for Core Production",
+                "ModuleStatusIdentifier": "ReadyforCoreProduction",
+                "StatusId": 25,
+                "FromStatus": "Import Completed"
+            }
+        },
+        "1151": {
+            "19": {
+                "ModuleId": 1151,
+                "ModStatus": "Ready for HOO Production",
+                "ModuleStatusIdentifier": "ReadyforHOOProduction",
+                "StatusId": 19,
+                "FromStatus": "Core Production Completed"
+            },
+            "7": {
+                "ModuleId": 1151,
+                "ModStatus": "HOO Production InProgress",
+                "ModuleStatusIdentifier": "HOOProductionInProgress",
+                "StatusId": 7,
+                "FromStatus": "Ready for HOO Production"
+            },
+            "6": {
+                "ModuleId": 1151,
+                "ModStatus": "HOO Query",
+                "ModuleStatusIdentifier": "HOOQuery",
+                "StatusId": 6,
+                "FromStatus": "HOO Production InProgress"
+            },
+            "4": {
+                "ModuleId": 1151,
+                "ModStatus": "HOO Query Completed",
+                "ModuleStatusIdentifier": "HOOQueryCompleted",
+                "StatusId": 4,
+                "FromStatus": "HOO Query"
+            },
+            "3": {
+                "ModuleId": 1151,
+                "ModStatus": "HOO Query InProgress",
+                "ModuleStatusIdentifier": "HOOQueryInProgress",
+                "StatusId": 3,
+                "FromStatus": "HOO Query InProgress"
+            },
+            "2": {
+                "ModuleId": 1151,
+                "ModStatus": "HOO Rework",
+                "ModuleStatusIdentifier": "HOORework",
+                "StatusId": 2,
+                "FromStatus": "HOO Rework"
+            },
+            "1": {
+                "ModuleId": 1151,
+                "ModStatus": "HOO Rework InProgress",
+                "ModuleStatusIdentifier": "HOOReworkInProgress",
+                "StatusId": 1,
+                "FromStatus": "HOO Rework InProgress"
+            }
+        }
+    },
+    "ModuleStatus_Navigation": {
+        "19": [
+            "Ready for Noncore Production",
+            14,
+            [
+                "Ready for HOO Production",
+                7
+            ]
+        ],
+        "14": [
+            "Noncore Production InProgress",
+            13
+        ],
+        "13": [
+            "Noncore Production Completed",
+            12,
+            [
+                "Noncore Query",
+                11
+            ]
+        ],
+        "11": [
+            "Noncore Query Completed",
+            24
+        ],
+        "10": [
+            "Noncore Query InProgress",
+            10
+        ],
+        "9": [
+            "Noncore Rework",
+            9
+        ],
+        "8": [
+            "Noncore Rework InProgress",
+            8
+        ],
+        "21": [
+            "Core Production InProgress",
+            20
+        ],
+        "20": [
+            "Core Production Completed",
+            19,
+            [
+                "Core Query",
+                18
+            ]
+        ],
+        "18": [
+            "Core Query Completed",
+            22
+        ],
+        "17": [
+            "Core Query InProgress",
+            17
+        ],
+        "16": [
+            "CoreRework",
+            false
+        ],
+        "15": [
+            "Core Rework InProgress",
+            15
+        ],
+        "25": [
+            "Ready for Core Production",
+            21
+        ],
+        "7": [
+            "HOO Production InProgress",
+            6
+        ],
+        "6": [
+            "HOO Production Completed",
+            5,
+            [
+                "HOO Query",
+                4
+            ]
+        ],
+        "4": [
+            "HOO Query Completed",
+            23
+        ],
+        "3": [
+            "HOO Query InProgress",
+            3
+        ],
+        "2": [
+            "HOO Rework",
+            2
+        ],
+        "1": [
+            "HOO Rework InProgress",
+            1
+        ]
+    },
+    "ModuleUser": {
+        "1150": {
+            "95534": {
+                "Id": 95534,
+                "Username": "usertwo"
+            }
+        },
+        "142": {
+            "1": {
+                "Id": 1,
+                "Username": "admin"
+            },
+            "96102": {
+                "Id": 96102,
+                "Username": "teamlead"
+            }
+        },
+        "1149": {
+            "95196": {
+                "Id": 95196,
+                "Username": "userone"
+            }
+        },
+        "1151": {
+            "95543": {
+                "Id": 95543,
+                "Username": "userthree"
+            }
+        },
+        "128": {
+            "96102": {
+                "Id": 96102,
+                "Username": "teamlead"
+            }
+        },
+        "141": {
+            "96102": {
+                "Id": 96102,
+                "Username": "teamlead"
+            }
+        }
+    },
+    "ProjectConfig": {
+        "DomainId": "1383",
+        "DomainUrl": "225",
+        "InputId": "1444",
+        "ProdDB_PageLimit": "50",
+        "ProductionView": "1",
+        "HygineCheck": ""
+    },
+    "UserGroups": {
+        "2": "user1",
+        "3": "user2",
+        "1002": "vendor1",
+        "1003": "vendor2",
+        "1010": "MojoUrlVone",
+        "1011": "MojoUrlVtwo",
+        "1012": "mobius134243",
+        "1013": "mobius  1",
+        "1014": "12345",
+        "1015": "mobius234",
+        "1016": "mobius-123",
+        "1017": "12345-876",
+        "1018": "dad 1212",
+        "1019": "dad 12121",
+        "1020": "dad1212",
+        "1021": "123_uhe",
+        "1022": "fdgd5345",
+        "1023": "gdfg 45345",
+        "1024": "Mobius QC Single",
+        "1025": "Mojo Single",
+        "1026": "CencageLocalGroup1",
+        "2026": "CengageNpo",
+        "2027": "MojoCengage"
+    }
+}
